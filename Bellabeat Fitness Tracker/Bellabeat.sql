@@ -49,7 +49,7 @@ select customer_id from daily_activity
 intersect
 select customer_id from sleep_day
 intersect
-select customer_id from weight_log;
+select customer_id from weight_log; -- more efficient
 
 -- There are 6 customers whose daily activity, sleep, and weight logs are all present.
 

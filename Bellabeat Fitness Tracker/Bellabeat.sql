@@ -36,6 +36,9 @@ group by customer_id
 
 select distinct customer_id from daily_activity where customer_id not in (select customer_id from sleep_day);
 
+select distinct da.customer_id from daily_activity da
+where not exists (select 1 from sleep_day sd where sd.customer_id =  da.customer_id)
+  
 -- There are 9 customers without sleep record
 
 4. Fetch all customers whose daily activity, sleep and weight logs are all present

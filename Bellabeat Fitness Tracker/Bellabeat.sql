@@ -26,6 +26,10 @@ with cte as
 (select customer_id,sum (total_time_in_bed-total_minutes_asleep) awake from sleep_day group by 1)
 select customer_id from cte where awake = (select min(awake) from cte);
 
+select distinct
+first_value(customer_id)over(order by sum(total_time_in_bed - total_minutes_asleep)) customer_id from sleep_day 
+group by customer_id
+  
 -- The customer with the most effective sleep is 7007744171, as they spent the most time in bed sleeping.
 
 3. Identify customers with no sleep record.

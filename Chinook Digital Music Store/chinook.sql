@@ -27,7 +27,6 @@ select name artist,no_of_albums from cte where rnk=1;
 -- The artist with the highest number of album contributions is Iron Maiden, with 21 albums.
 
 
-
 2) Display the name, email id, country of all listeners who love Jazz, Rock and Pop music.
 
 select distinct firstname ||' ' || lastname cust_name,email,country 
@@ -36,7 +35,6 @@ join invoiceline using(invoiceid) join track using(trackid)
 join genre using (genreid) where genre.name in ('Jazz','Rock','Pop')
 
 -- There are 59 listeners who enjoy Jazz, Rock, and Pop music, and their details, including name, email, and country, have been retrieved.
-
 
 
 3) Find the employee who has supported the most no of customers. Display the employee name and designation
@@ -50,15 +48,13 @@ select employee_name, title, total from cte where rnk = 1
 -- The employee who has supported the most customers is Jane Peacock, a Sales Support Agent, with 21 customers.
 
 
-
 4) Which city corresponds to the best customers?
 
-select billingcity,revenue from 
-	(select billingcity,sum(total) revenue,rank()over(order by sum(total) desc) rnk from invoice group by billingcity)
-where rnk=1
+with cte as
+(select billingcity, sum(total) revenue, rank()over(order by sum(total) desc) rnk from invoice group by 1)
+select billingcity,revenue from cte where rnk = 1
 
 -- The city with the highest revenue and best customers is Prague, generating 90.24 in revenue.
-
 
 
 5) The highest number of invoices belongs to which country?
@@ -70,7 +66,6 @@ where rnk=1
 -- The USA has the highest number of invoices, totaling 91.
 
 
-
 6) Name the best customer (customer who spent the most money).
 
 select cust_name,revenue from 
@@ -80,10 +75,9 @@ select cust_name,revenue from
 		group by 1,2)
 where rnk=1
 
-
-
 -- The best customer is Helena Holý, who spent the most money, totaling 49.62 in revenue.
 
+	
 7) Suppose you want to host a rock concert in a city and want to know which location should host it.
 
 select billingcity,count(*) no_of_consumers
@@ -95,8 +89,7 @@ group by 1 order by 2 desc
 -- The best location to host a rock concert is São Paulo, 
 -- as it has the highest number of rock consumers (40), followed by Berlin (34) and Paris (30).
 
-
-
+	
 8) Identify all the albums who have less then 5 track under them.
    Display the album name, artist name and the no of tracks in the respective album.
 
@@ -107,8 +100,7 @@ group by 1,2 having count(trackid) < 5 order by 3 desc
 -- There are 95 albums that contain less than 5 tracks. This suggests that a significant number 
 -- of albums in the database have only a few songs, possibly indicating singles, EPs, or short compilations.
 
-
-
+	
 9) Display the track, album, artist and the genre for all tracks which are not purchased.
 
 select track.name,album.title,artist.name,genre.name 
@@ -120,7 +112,6 @@ left join invoiceline il using(trackid)
 where il.trackid is null
 
 -- There are 1,519 tracks not purchased, indicating low popularity or customer interest.
-
 
 
 10) Find artist who have performed in multiple genres. Diplay the aritst name and the genre.
@@ -138,7 +129,6 @@ select artist_name,genre_name from final_cte where total>1
 -- The output shows 50 artists who have performed in multiple genres, indicating their versatility across different musical styles.
 
 
-
 11) Which is the most popular and least popular genre?
 
 with cte as 
@@ -153,7 +143,6 @@ select g_name,no_of_songs,'Least Popular' from cte where rnk= (select max(rnk) f
 -- while the least popular genres are Rock And Roll and Science Fiction, each with only 6 occurrences.
 
 
-
 12) Identify if there are tracks more expensive than others. If there are then
     display the track name along with the album title and artist name for these expensive tracks.
 
@@ -164,7 +153,6 @@ join artist art using(artistid)
 where unitprice > (select min(unitprice) from track)
 
 -- 213 tracks are more expensive than others, with their album titles and artist names displayed.
-
 
 
 13) Identify the 5 most popular artist for the most popular genre.
@@ -191,7 +179,6 @@ select artist_name, no_of_songs from final_cte where rnk <=5
 -- The top 5 rock artists by song count are Led Zeppelin (114), U2 (112), Deep Purple (92), Iron Maiden (81), and Pearl Jam (54).
 
 
-
 14) Find the artist who has contributed with the maximum no of songs/tracks. Display the artist name and the no of songs.
 
 with cte as
@@ -206,13 +193,11 @@ select artist_name,no_of_songs from cte where rnk=1;
 -- Iron Maiden has contributed the most songs, with a total of 213 tracks.
 
 
-
 15) Are there any albums owned by multiple artist?
 
 select albumid,count(artistid) no_of_artists from album group by 1 having count(artistid)>1
 
 -- No albums are owned by multiple artists.
-
 
 
 16) Is there any invoice which is issued to a non existing customer?
@@ -223,7 +208,6 @@ where not exists (select 1 from customer c where c.customerid=i.customerid)
 -- All invoices in the system are linked to valid, existing customers.
 
 
-
 17) Is there any invoice line for a non existing invoice?
 
 select * from invoiceline il
@@ -232,13 +216,11 @@ where not exists (select 1 from invoice i where i.invoiceid=il.invoiceid)
 -- No invoice lines exist without corresponding parent invoices, ensuring data integrity throughout the system.
 
 
-
 18) Are there albums without a title?
 
 select count(*) non_titled from album where title is null
 
 -- All albums in the database have titles.
-
 
 
 19) Are there invalid tracks in the playlist?

@@ -106,7 +106,9 @@ select distinct first_value(day_of_week)over(order by count(*) desc) most_repeat
 
 10. Based on the given data, identify the average kms a customer walks based on 6000 steps.
 
-select customer_id,round(avg(total_distance),2) from daily_activity where total_steps>6000 group by 1 order by 2 desc;
+select round(avg(total_distance/total_steps) * 6000,2) avg_kms_for_6000_steps from daily_activity where total_steps > 0
+
+-- On average, a customer walks 4.24 km for every 6000 steps.
 
 
 

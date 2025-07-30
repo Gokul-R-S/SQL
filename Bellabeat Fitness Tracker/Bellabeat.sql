@@ -94,18 +94,13 @@ from sleep_day group by day_of_week order by 2 desc;
 9. Identify the most repeated day of week. Repeated day of week is when a day
 has been mentioned the most in entire database.
 
-select day_of_week,count(day_of_week) occurence from daily_activity full join sleep_day using(day_of_week) full join weight_log using(day_of_week) 
-group by 1 order by 2 desc;
-
-with cte as(
-select day_of_week from daily_activity 
-union all
-select day_of_week from sleep_day 
-union all
-select day_of_week from weight_log),
-cte_final as (
-select day_of_week,count(*),dense_rank()over(order by count(*) desc) rnk from cte group by 1)
-select day_of_week most_repeated from cte_final where rnk=1;
+with cte as (
+select day_of_week from daily_activity
+union all 
+select day_of_week from sleep_day
+union all 
+select day_of_week from weight_log)
+select distinct first_value(day_of_week)over(order by count(*) desc) most_repeated from cte group by day_of_week
 
 -- The most repeated day of the week in the database is Wednesday.
 

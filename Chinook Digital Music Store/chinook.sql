@@ -115,15 +115,18 @@ where not exists (select 1 from invoiceline il where il.trackid = t.trackid)
 
 10) Find artist who have performed in multiple genres. Diplay the aritst name and the genre.
 
-with cte as
-		(select distinct art.name artist_name,g.name genre_name
-		from track 
-		join album using(albumid) 
-		join artist art using(artistid) 
-		join genre g using(genreid)),
-	final_cte as
-		(select artist_name,genre_name,count(genre_name)over(partition by artist_name) total from cte)
-select artist_name,genre_name from final_cte where total>1
+select distinct ar.name as artist_name, g.name as genre_name
+from track t
+join album a using(albumid)
+join artist ar using(artistid)
+join genre g using(genreid)
+where ar.artistid in (
+    select artistid
+    from track
+    join album using(albumid)
+    group by artistid
+    having count(distinct genreid) > 1
+)
 
 -- The output shows 50 artists who have performed in multiple genres, indicating their versatility across different musical styles.
 

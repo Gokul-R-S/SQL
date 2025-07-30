@@ -103,15 +103,14 @@ group by 1,2 having count(trackid) < 5 order by 3 desc
 	
 9) Display the track, album, artist and the genre for all tracks which are not purchased.
 
-select track.name,album.title,artist.name,genre.name 
-from track 
-join album using(albumid) 
-join artist using(artistid) 
-join genre using(genreid)
-left join invoiceline il using(trackid) 
-where il.trackid is null
+select distinct t.name track ,a.title album, ar.name artist,g.name genre
+from track t 
+join album a using(albumid) 
+join artist ar using (artistid)
+join genre g using (genreid) 
+where not exists (select 1 from invoiceline il where il.trackid = t.trackid)
 
--- There are 1,519 tracks not purchased, indicating low popularity or customer interest.
+-- 1518 tracks were never purchased, indicating low listener interest.
 
 
 10) Find artist who have performed in multiple genres. Diplay the aritst name and the genre.

@@ -19,9 +19,9 @@ select * from Track; -- 3503
 
 1) Find the artist who has contributed with the maximum no of albums. Display the artist name and the no of albums.
 
-with cte as (
-		select artistid,name,count(*) no_of_albums,
-		rank() over(order by count(*) desc) rnk from artist join album using(artistid) group by 1,2)
+with cte as 
+(select artistid,name,count(*) no_of_albums,
+rank() over(order by count(*) desc) rnk from artist join album using(artistid) group by 1,2)
 select name artist,no_of_albums from cte where rnk=1;
 
 -- The artist with the highest number of album contributions is Iron Maiden, with 21 albums.
@@ -41,11 +41,11 @@ join genre using (genreid) where genre.name in ('Jazz','Rock','Pop')
 
 3) Find the employee who has supported the most no of customers. Display the employee name and designation
 
-with cte as (
-		select employeeid,count(*) no_of_customers,rank()over(order by count(*) desc) rnk 
-		from customer c join employee e on c.supportrepid=e.employeeid
-		group by employeeid)
-select concat(firstname,' ',lastname) employee_name,title,no_of_customers from cte join employee using(employeeid) where rnk=1
+with cte as
+(select employeeid, concat(e.firstname,' ',e.lastname) employee_name, title, rank()over(order by count(*) desc) rnk,count(*) total
+from customer c join employee e on c.supportrepid = e.employeeid
+group by 1, 2, 3)
+select employee_name, title, total from cte where rnk = 1
 
 -- The employee who has supported the most customers is Jane Peacock, a Sales Support Agent, with 21 customers.
 

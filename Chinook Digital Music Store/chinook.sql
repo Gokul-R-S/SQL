@@ -22,7 +22,7 @@ select * from Track; -- 3503
 with cte as 
 (select artistid,name,count(*) no_of_albums,
 rank() over(order by count(*) desc) rnk from artist join album using(artistid) group by 1,2)
-select name artist,no_of_albums from cte where rnk=1;
+select name artist,no_of_albums from cte where rnk = 1;
 
 -- The artist with the highest number of album contributions is Iron Maiden, with 21 albums.
 
@@ -61,7 +61,7 @@ select billingcity,revenue from cte where rnk = 1
 
 select billingcountry country,total from 
 	(select billingcountry,count(*) total,rank()over(order by count(*) desc) rnk from invoice group by billingcountry)
-where rnk=1
+where rnk = 1
 
 -- The USA has the highest number of invoices, totaling 91.
 
@@ -73,7 +73,7 @@ select cust_name,revenue from
 		rank()over(order by sum(total) desc) rnk 
 		from customer join invoice using(customerid) 
 		group by 1,2)
-where rnk=1
+where rnk = 1
 
 -- The best customer is Helena Holý, who spent the most money, totaling 49.62 in revenue.
 
@@ -134,12 +134,12 @@ where ar.artistid in (
 11) Which is the most popular and least popular genre?
 
 with cte as 
-			(select genre.name g_name,count(*) no_of_songs,rank()over(order by count(*) desc) rnk from 
-			invoiceline join track using(trackid)
-			join genre using(genreid) group by 1)
-select g_name,no_of_songs, 'Most Popular' popular_Flag from cte where rnk=1
+	(select genre.name g_name,count(*) no_of_songs,rank()over(order by count(*) desc) rnk from 
+	invoiceline join track using(trackid)
+	join genre using(genreid) group by 1)
+select g_name,no_of_songs, 'Most Popular' popular_Flag from cte where rnk = 1
 union
-select g_name,no_of_songs,'Least Popular' from cte where rnk= (select max(rnk) from cte)
+select g_name,no_of_songs,'Least Popular' from cte where rnk = (select max(rnk) from cte)
 
 -- The most popular genre is Rock with 835 occurrences, 
 -- while the least popular genres are Rock And Roll and Science Fiction, each with only 6 occurrences.

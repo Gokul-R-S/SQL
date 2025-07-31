@@ -48,7 +48,7 @@ select employee_name, title, total from cte where rnk = 1
 -- The employee who has supported the most customers is Jane Peacock, a Sales Support Agent, with 21 customers.
 
 
-4) Which city corresponds to the best customers?
+4) Which city generated the highest revenue?
 
 with cte as
 (select billingcity, sum(total) revenue, rank()over(order by sum(total) desc) rnk from invoice group by 1)

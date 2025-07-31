@@ -137,7 +137,7 @@ with cte as
 	(select genre.name g_name,count(*) no_of_songs,rank()over(order by count(*) desc) rnk from 
 	invoiceline join track using(trackid)
 	join genre using(genreid) group by 1)
-select g_name,no_of_songs, 'Most Popular' popular_Flag from cte where rnk = 1
+select g_name,no_of_songs, 'Most Popular' popular_flag from cte where rnk = 1
 union
 select g_name,no_of_songs,'Least Popular' from cte where rnk = (select max(rnk) from cte)
 

@@ -6,17 +6,23 @@ SQL analysis of the **Chinook Digital Music Store** using **PostgreSQL** to gain
 
 ## Key Insights  
 
-* **Top Contributor**: *Iron Maiden* stands out as the most prolific artist, contributing the highest number of both albums (21) and tracks (213).
+**1. Geographic Revenue Strategy**
+USA dominates with 91 invoices but Prague generates highest per-city revenue ($90.24). Scale US operations while implementing Prague's high-value customer acquisition model globally.
 
-* **Customer Insights**: *Helena Holý* is the store’s top customer by total spending (₹49.62), while the *USA* is the largest market with the highest number of invoices (91).
+**2. Concert & Event Planning**
+Rock genre leads with 835 purchases; São Paulo has 40 rock consumers (highest). Prioritize rock concerts in São Paulo, Berlin, and Paris for maximum ROI.
 
-* **Genre Popularity**: *Rock* dominates as the most popular genre (835 purchases), with *Led Zeppelin* and *U2* leading in song contributions.
+**3. Catalog Optimization Crisis**
+43% of tracks (1,518 songs) never sold, creating dead inventory. Remove unpopular tracks, negotiate better licensing deals, or bundle with popular content.
 
-* **Untapped Inventory**: Over *1,500 tracks* remain unpurchased, signaling potential for promotional strategies or catalog optimization.
+**4. Customer Segmentation Opportunity**
+One customer (Helena Holý) spent $49.62 while having premium-price buyers across 27 cities. Develop VIP programs and premium pricing tiers for high-value segments.
 
-* **Location Opportunities**: *Prague* leads in revenue generation, while *São Paulo* has the highest concentration of rock listeners — ideal for hosting a concert.
+**5. Artist Partnership Strategy**
+Iron Maiden contributes most content (213 tracks, 21 albums) while 50 artists span multiple genres. Secure exclusive deals with top performers and cross-promote versatile artists.
 
-* **Artist Versatility**: 50 artists perform across multiple genres, suggesting opportunities for cross-genre marketing and playlist curation.
+**6. Sales Team Efficiency**
+Jane Peacock manages 21 customers (highest). Analyze her methods and train other sales reps to replicate her customer relationship strategies.
 
 ## Technologies Used  
 

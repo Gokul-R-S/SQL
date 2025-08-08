@@ -99,10 +99,11 @@ group by a.albumid, ar.artistid, a.title, ar.name
 having count(t.trackid) < 5 
 order by no_of_tracks desc;
 
--- There are 95 albums that contain less than 5 tracks. This suggests that a significant number 
--- of albums in the database have only a few songs, possibly indicating singles, EPs, or short compilations.
+-- There are 95 albums that contain fewer than 5 tracks. 
+-- This suggests that many albums in the database are likely singles or EPs, 
+-- which typically have only a small number of songs compared to full-length albums.
 
-	
+
 9) Display the track, album, artist and the genre for all tracks which are not purchased.
 
 select distinct t.name track ,a.title album, ar.name artist,g.name genre
@@ -201,14 +202,3 @@ with cte as
 select artist_name,no_of_songs from cte where rnk = 1;
 
 -- Iron Maiden has contributed the most songs, with a total of 213 tracks.
-
-
-
-
-
-
-
-
-
-
-

@@ -181,7 +181,7 @@ top_artists as (
     join artist ar using(artistid)
     join genre g using(genreid)
     where g.name in (select genre_name from popular_genre where rnk = 1)
-    group by ar.name
+    group by ar.name, ar.artistid
 )
 select artist_name, no_of_songs
 from top_artists where rnk <= 5;
@@ -202,4 +202,5 @@ with cte as
 select artist_name,no_of_songs from cte where rnk = 1;
 
 -- Iron Maiden has contributed the most songs, with a total of 213 tracks.
+
 

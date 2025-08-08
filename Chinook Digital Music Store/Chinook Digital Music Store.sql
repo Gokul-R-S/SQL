@@ -113,7 +113,7 @@ join artist ar using (artistid)
 join genre g using (genreid) 
 where not exists (select 1 from invoiceline il where il.trackid = t.trackid)
 
--- 1518 tracks were never purchased, indicating low listener interest.
+-- 1,518 tracks have never sold, indicating dead inventory that may need removal, re-licensing, or bundling.
 
 
 10) Find artist who have performed in multiple genres. Diplay the aritst name and the genre.
@@ -202,3 +202,4 @@ with cte as
 select artist_name,no_of_songs from cte where rnk = 1;
 
 -- Iron Maiden has contributed the most songs, with a total of 213 tracks.
+

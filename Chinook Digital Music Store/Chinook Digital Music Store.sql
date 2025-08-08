@@ -198,9 +198,10 @@ with cte as
 		from track 
 		join album a using(albumid) 
 		join artist ar using(artistid) 
-		group by 1)
+		group by ar.name, ar.artistid)
 select artist_name,no_of_songs from cte where rnk = 1;
 
 -- Iron Maiden has contributed the most songs, with a total of 213 tracks.
+
 
 

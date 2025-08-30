@@ -6,23 +6,30 @@ PostgreSQL analysis of the Chinook Digital Music Store database to extract busin
 ---
 
 ## Key Insights  
+
 **1. Geographic Revenue Strategy**
-USA dominates with 91 invoices but Prague generates highest per-city revenue ($90.24). Scale US operations while implementing Prague's high-value customer acquisition model globally.
 
-**2. Concert & Event Planning**
-Rock genre leads with 835 purchases; São Paulo has 40 rock consumers (highest). Prioritize rock concerts in São Paulo, Berlin, and Paris for maximum ROI.
+The USA dominates in transaction volume (91 invoices), while Prague generates the highest per-city revenue (\$90.24). Focus on scaling operations in the US while replicating Prague’s **high-value customer acquisition model** through localized pricing and premium promotions.
 
-**3. Catalog Optimization Crisis**
-43% of tracks (1,518 songs) never sold, creating dead inventory. Remove unpopular tracks, negotiate better licensing deals, or bundle with popular content.
+**2. Genre Demand & Targeted Marketing**
 
-**4. Customer Segmentation Opportunity**
-One customer (Helena Holý) spent $49.62 while having premium-price buyers across 27 cities. Develop VIP programs and premium pricing tiers for high-value segments.
+Rock is the most purchased genre (835 purchases), with São Paulo having the largest rock consumer base (40 customers). Leverage this by designing **genre-specific promotions, playlists, and bundles**, and run **geo-targeted campaigns** in São Paulo, Berlin, and Paris to maximize engagement and revenue.
+
+**3. Catalog Optimization**
+
+43% of tracks (1,518 songs) were never purchased, creating digital “dead stock.” Streamline the catalog by **removing low-demand tracks, renegotiating licenses, or bundling them with popular content** to improve overall catalog profitability and user satisfaction.
+
+**4. Customer Segmentation & Loyalty Programs**
+
+Top spenders, like Helena Holý (\$49.62), indicate the presence of **premium-price buyers across 27 cities**. Launch **VIP programs, loyalty rewards, and premium pricing tiers** to retain high-value customers and incentivize repeat purchases.
 
 **5. Artist Partnership Strategy**
-Iron Maiden contributes most content (213 tracks, 21 albums) while 50 artists span multiple genres. Secure exclusive deals with top performers and cross-promote versatile artists.
 
-**6. Sales Team Efficiency**
-Jane Peacock manages 21 customers (highest). Analyze her methods and train other sales reps to replicate her customer relationship strategies.
+Iron Maiden has the most content (213 tracks, 21 albums), and 50 artists span multiple genres. Build **exclusive digital partnerships with high-output artists** and **cross-promote versatile artists** to drive discovery and cross-genre sales.
+
+**6. Sales Team Performance & Training**
+
+Jane Peacock manages 21 customers (highest among reps). Analyze her sales patterns and **standardize best practices into training modules** to improve efficiency and customer relationship management across the sales team.
 
 ---
 
@@ -56,3 +63,4 @@ Jane Peacock manages 21 customers (highest). Analyze her methods and train other
 
 ## Outcome
 Comprehensive business intelligence for digital music retail optimization through customer segmentation, geographic targeting, and inventory management improvements.
+

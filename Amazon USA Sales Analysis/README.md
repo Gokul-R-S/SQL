@@ -15,7 +15,7 @@ The focus is on **analytical SQL, performance-aware querying, and business insig
 
 The database schema was designed using **draw.io**, illustrating relationships between customers, sellers, products, orders, inventory, payments, and shipping data.
 
-<ERD image inserted here>
+<img width="1051" height="850" alt="Image" src="https://github.com/user-attachments/assets/73121373-3f26-459a-9bbd-80885d3eb3ae" />
 
 ---
 

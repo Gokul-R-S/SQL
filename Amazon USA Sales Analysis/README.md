@@ -1,68 +1,49 @@
+# Amazon Sales Analysis
 
-# Amazon Sales Analysis (SQL Project)
+Advanced SQL analytics project demonstrating business intelligence and data analysis capabilities through real-world e-commerce scenarios.
 
-## Overview
+## About This Project
 
-This project showcases a **SQL-based analysis of an e-commerce platform**, addressing real-world business questions around revenue, customer behavior, inventory, seller performance, and logistics.
-The focus is on **analytical SQL, clean data modeling, and performance-aware querying**.
+This project showcases my SQL expertise through 10 complex business analytics queries built for an Amazon-like e-commerce database. Each query addresses real operational challenges faced by online marketplaces, from customer retention to inventory optimization.
 
----
-
-## ERD
-
-The database schema was designed using **draw.io**, covering customers, sellers, products, orders, inventory, payments, and shipping.
-
-<img width="1051" height="850" alt="Image" src="https://github.com/user-attachments/assets/73121373-3f26-459a-9bbd-80885d3eb3ae" />
+**Database:** PostgreSQL
 
 ---
 
-## Database Design
+## Database Schema
 
-**8 normalized tables**:
-`customers`, `sellers`, `products`, `orders`, `order_items`, `inventory`, `payments`, `shippings`
+### ER Diagram
 
-* Enforced PK/FK relationships
-* Normalized for scalable analytics
-* Optimized for joins and aggregations
+The database schema was designed and visualized using **draw.io**, modeling a complete e-commerce system with customers, orders, products, categories, sellers, inventory, and shipping data.
 
----
 
-## SQL Techniques Used
+<img alt="ERD" src="https://github.com/user-attachments/assets/67543e8a-a07f-400b-9235-f6bc22efa8ec" style="width:70%; height:auto;" />
 
-* CTEs and window functions (`RANK`, `ROW_NUMBER`)
-* Conditional logic (`CASE`)
-* Advanced aggregations
-* Time-based analysis
-* Query optimization using `EXPLAIN ANALYZE`
+
 
 ---
 
-## Performance & Data Quality
+## Business Problems Solved
 
-* Indexed frequently joined and filtered columns
-* Reduced execution time from ~30 ms to ~3–5 ms
-* Removed duplicates, handled nulls, standardized statuses
-
----
-
-## Business Questions Answered
-
-* Which high-value customers are at risk of churn?
-* Which categories and sellers underperform?
-* Which high-margin products need restocking?
-* How is revenue distributed across categories and shippers?
-* Where do returns and shipping delays occur?
-
----
-
-## Outcome
-
-* Actionable business insights
-* Efficient, production-style SQL queries
-* Reusable analytics framework for e-commerce data
+| # | Problem Statement |
+|---|-------------------|
+| 1 | **Customer Retention Analysis** |
+| 2 | **Quarterly Revenue Performance** |
+| 3 | **Category Revenue Contribution** |
+| 4 | **Regional Performance Analysis** |
+| 5 | **Product Returns Root Cause** |
+| 6 | **Revenue Decline YoY Analysis** |
+| 7 | **Inactive Seller Identification** |
+| 8 | **Inventory Optimization** |
+| 9 | **Seller Performance Gaps** |
+| 10 | **Monthly Sales Reporting Function** |
 
 ---
 
-## Conclusion
+## Key Skills Demonstrated
 
-This project demonstrates **practical, business-focused SQL analytics** with attention to **performance, clarity, and real-world applicability**.
+- **Advanced SQL**: CTEs, window functions, crosstab, complex joins, subqueries
+- **Business Analytics**: Customer segmentation, performance metrics, trend analysis
+- **Database Programming**: PL/pgSQL functions, user defined functions
+- **Problem Solving**: Translating business requirements into efficient SQL solutions
+- **Query Optimization**: Performance-conscious query design

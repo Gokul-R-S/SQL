@@ -17,7 +17,10 @@ This project showcases my SQL expertise through 10 complex business analytics qu
 The database schema was designed and visualized using **draw.io**, modeling a complete e-commerce system with customers, orders, products, categories, sellers, inventory, and shipping data.
 
 
-<img alt="ERD" src="https://github.com/user-attachments/assets/67543e8a-a07f-400b-9235-f6bc22efa8ec" style="width:70%; height:auto;" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/67543e8a-a07f-400b-9235-f6bc22efa8ec" alt="ERD" width="70%">
+</p>
+
 
 
 

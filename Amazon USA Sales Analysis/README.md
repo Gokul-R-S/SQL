@@ -28,9 +28,11 @@ The project began with a fully normalized relational schema designed to eliminat
 - **Shippings** — shipping and delivery records
 - **Inventory** — stock levels per product/warehouse
 
-The ER diagram for the original schema was designed and visualized using **draw.io**.
 
-![Original ER Diagram](ERD.png)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/94ed35c5-e45a-42a4-b3b3-131793938599" width="700" />
+</p>
 
 ---
 
@@ -51,7 +53,13 @@ The migration collapsed Payments, Shippings, Order Items, Category, and Inventor
 
 Following the schema setup, indexes were created on `fact_orders` for frequently queried columns (`customer_id`, `seller_id`, `product_id`, `order_date`, `order_status`, `delivery_status`) to optimize join and filter performance across all analytical queries.
 
-![Star Schema ER Diagram](ERD_StarSchema.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8206ea26-6eaa-42d0-b5c1-d33e9af30b8f" />
+</p>
+
+
+The ER diagrams were designed and visualized using **draw.io**.
+
 
 ---
 

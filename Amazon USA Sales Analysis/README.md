@@ -78,6 +78,9 @@ The ER diagrams were designed and visualized using **draw.io**.
 | 9 | **Underperforming Sellers Analysis** — Find sellers with high order volume but low AOV, and recommend high-value categories |
 | 10 | **Monthly Seller Performance Report Function** — Reusable PL/pgSQL function generating ranked seller reports for any month/year |
 
+<br>
+
+> For the complete SQL queries and detailed analysis, click here: [View Full Analysis](Analysis.md)
 ---
 
 ## Key Skills Demonstrated

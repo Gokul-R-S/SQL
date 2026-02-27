@@ -1,0 +1,766 @@
+product_id,product_name,price,cogs,category_name,stock,warehouse_id,last_stock_date
+1,Apple AirPods 3rd Gen,199.99,78,electronics,55,1,08-04-2024
+2,Apple AirPods Max,549.99,231,electronics,39,1,02-02-2024
+3,Apple AirPods Pro,249.99,112.5,electronics,92,1,10-05-2024
+4,Apple AirPods Pro 2nd Gen,249.99,17.5,electronics,57,1,18-04-2024
+5,Apple AirPods Pro 2nd Generation,249.99,20,electronics,87,1,09-01-2024
+6,Apple iMac 24-Inch,1299.99,585,electronics,31,1,07-03-2024
+7,Apple iMac 27-Inch Retina,1799.99,324,electronics,87,1,02-09-2022
+8,Apple iMac Pro,4999.99,400,electronics,89,1,08-08-2022
+9,Apple iPad 10th Gen,449.99,135,electronics,30,1,04-07-2022
+10,Apple iPad 9th Gen,329.99,39.6,electronics,53,1,03-06-2023
+11,Apple iPad Air (5th Gen),649.99,156,electronics,60,1,03-01-2022
+12,Apple iPad Air (5th Gen),599.99,120,electronics,59,1,08-06-2023
+13,Apple iPad Pro (11-inch),799.99,232,electronics,39,1,09-02-2022
+14,Apple iPad Pro 12.9-inch (4th Gen),999.99,210,electronics,89,1,22-08-2023
+15,Apple iPad Pro 12.9-inch (5th Gen),1099.99,352,electronics,40,1,30-12-2022
+16,Apple iPhone 12 Mini,699.99,210,electronics,48,1,04-10-2023
+17,Apple iPhone 13 Mini,699.99,112,electronics,57,1,18-03-2022
+18,Apple iPhone 14,799.99,208,electronics,41,1,23-02-2023
+19,Apple iPhone 14 Pro,999.99,190,electronics,95,1,21-03-2022
+20,Apple MacBook Air 2020,999.99,270,electronics,93,1,28-06-2022
+21,Apple MacBook Air M1,999.99,220,electronics,56,1,11-01-2022
+22,Apple MacBook Air M2,1299.99,390,electronics,60,1,12-09-2023
+23,Apple MacBook Pro 13-inch (M1),1299.99,273,electronics,70,1,21-06-2022
+24,Apple MacBook Pro 14-inch,1999.99,320,electronics,54,1,19-05-2023
+25,Apple MacBook Pro 16-inch,2499.99,475,electronics,24,1,28-03-2023
+26,Apple MacBook Pro 16-inch (2021),2499.99,450,electronics,23,1,20-02-2023
+27,Apple Magic Keyboard,149.99,33,electronics,60,1,20-10-2023
+28,Apple Magic Keyboard with Touch ID,149.99,25.5,electronics,71,1,04-08-2022
+29,Apple Magic Mouse 2,79.99,19.2,electronics,42,1,18-04-2022
+30,Apple Magic Trackpad,129.99,52,electronics,74,1,09-10-2022
+31,Apple TV 4K,179.99,46.8,electronics,65,1,03-12-2023
+32,Apple TV 4K (2022),179.99,28.8,electronics,28,1,29-12-2022
+33,Apple TV HD,149.99,42,electronics,69,1,08-08-2023
+34,Apple Watch SE,279.99,64.4,electronics,55,1,12-11-2023
+35,Apple Watch SE (2022),279.99,106.4,electronics,67,1,02-02-2023
+36,Apple Watch Series 7,399.99,76,electronics,36,1,23-01-2022
+37,Apple Watch Series 8,399.99,144,electronics,35,1,12-12-2023
+38,Apple Watch Ultra,799.99,232,electronics,91,1,19-12-2022
+39,Dell XPS 13 Laptop,1199.99,456,electronics,85,1,07-12-2022
+40,Dell Alienware Aurora R13,2499.99,525,electronics,67,1,23-02-2023
+41,Dell Inspiron 15 3000,899.99,63,electronics,25,1,20-09-2023
+42,Dell UltraSharp U2720Q Monitor,719.99,309.6,electronics,89,1,13-10-2023
+43,Dell XPS 17 Laptop,2099.99,231,electronics,70,1,25-10-2023
+44,Dell S3221QS Curved Monitor,599.99,216,electronics,50,1,30-04-2023
+45,Dell G5 Gaming Desktop,1499.99,390,electronics,76,1,16-03-2023
+46,Dell Alienware m15 R6 Gaming Laptop,1699.99,493,electronics,47,1,29-11-2023
+47,Dell Inspiron 14 5000 Laptop,999.99,420,electronics,25,1,02-09-2022
+48,Dell UltraSharp U4021QW Monitor,1999.99,180,electronics,83,1,27-10-2022
+49,Dell XPS 13 Plus,1399.99,476,electronics,41,1,24-06-2023
+50,Dell Inspiron 14 5000,999.99,420,electronics,76,1,30-05-2023
+51,Dell Alienware x17 Gaming Laptop,2099.99,630,electronics,66,1,09-10-2023
+52,Dell XPS 15 Laptop,1799.99,324,electronics,49,1,30-01-2023
+53,Dell Alienware m17 R5 Gaming Laptop,1899.99,779,electronics,88,1,05-05-2022
+54,Samsung 65-Inch QLED TV,1299.99,494,electronics,48,1,01-08-2022
+55,Samsung Galaxy Tab S8,649.99,84.5,electronics,84,1,22-10-2023
+56,Samsung Galaxy Z Fold 4,1799.99,576,electronics,51,1,06-11-2022
+57,Samsung 32-Inch Odyssey G7 Monitor,699.99,301,electronics,24,1,24-10-2022
+58,Samsung Galaxy Buds2 Pro,249.99,20,electronics,75,1,26-01-2023
+59,Samsung Galaxy Note 20 Ultra,1199.99,468,electronics,22,1,15-01-2023
+60,Samsung Odyssey G9,1299.99,78,electronics,79,1,29-07-2022
+61,Samsung Galaxy Z Flip 4,999.99,250,electronics,28,1,06-10-2022
+62,Samsung 34-Inch Curved Monitor,399.99,116,electronics,94,1,09-02-2022
+63,Samsung 27-Inch 4K Monitor,499.99,80,electronics,89,1,01-08-2023
+64,Samsung Galaxy Watch 4,249.99,82.5,electronics,94,1,29-09-2022
+65,Samsung Galaxy S22 Ultra,1199.99,156,electronics,68,1,27-12-2022
+66,Samsung Galaxy Tab S7+,849.99,323,electronics,26,1,06-06-2022
+67,Samsung Galaxy Watch 5,279.99,44.8,electronics,34,1,01-04-2023
+68,Samsung 55-Inch Q80T QLED TV,1299.99,390,electronics,94,1,25-07-2022
+69,Samsung Galaxy Z Fold 5,1799.99,810,electronics,39,1,28-03-2022
+70,Samsung 43-Inch 4K UHD Monitor,399.99,20,electronics,57,1,28-01-2023
+71,Samsung 55-Inch The Frame TV,1499.99,150,electronics,92,1,27-12-2022
+72,Samsung Galaxy Buds Live,169.99,37.4,electronics,86,1,06-12-2022
+73,Samsung Galaxy Z Flip 5,999.99,400,electronics,63,1,20-07-2022
+74,Samsung 32-Inch Odyssey G5 Monitor,399.99,136,electronics,66,1,11-09-2022
+75,Samsung Galaxy Watch 5 Pro,399.99,124,electronics,99,1,09-04-2022
+76,Samsung 32-Inch Curved Monitor,279.99,67.2,electronics,59,1,11-05-2022
+77,Samsung Galaxy A52 5G,499.99,115,electronics,61,1,26-12-2022
+78,Samsung Galaxy S22,799.99,120,electronics,94,1,25-05-2023
+79,Samsung Galaxy S22 Plus,999.99,450,electronics,61,1,26-03-2023
+80,Samsung 49-Inch Odyssey G9 Curved Monitor,1299.99,273,electronics,84,1,27-12-2022
+81,Samsung 32-Inch Monitor,299.99,39,electronics,42,1,01-03-2022
+82,Samsung Galaxy S21 FE,699.99,259,electronics,81,1,19-09-2023
+83,Samsung Galaxy S20 FE,699.99,161,electronics,39,1,24-03-2023
+84,Samsung Galaxy Z Fold 3,1799.99,108,electronics,63,1,07-08-2022
+85,Samsung Galaxy S20 Ultra,1199.99,96,electronics,41,1,04-06-2023
+86,Samsung 32-Inch Curved UHD Monitor,329.99,125.4,electronics,98,1,25-01-2022
+87,Samsung Galaxy Note 20,999.99,140,electronics,63,1,01-03-2022
+88,Sony WH-1000XM4 Wireless Headphones,349.99,108.5,electronics,86,1,09-05-2023
+89,Bose QuietComfort 35 II,299.99,111,electronics,68,1,22-06-2022
+90,Canon EOS R5 Mirrorless Camera,3899.99,1326,electronics,40,1,25-10-2023
+91,Microsoft Surface Pro 8,1099.99,407,electronics,86,1,19-11-2022
+92,Nintendo Switch OLED Model,349.99,52.5,electronics,23,1,02-12-2022
+93,LG OLED C1 Series 55-Inch TV,1799.99,576,electronics,89,1,02-07-2022
+94,Fitbit Charge 5,149.99,33,electronics,65,1,19-12-2023
+95,GoPro HERO10 Black,499.99,100,electronics,93,1,21-02-2023
+96,Sonos One (Gen 2) Wireless Speaker,219.99,59.4,electronics,85,1,03-07-2023
+97,HP Spectre x360 14,1299.99,338,electronics,77,1,07-04-2023
+98,ASUS ROG Strix Scar 15,2299.99,460,electronics,81,1,03-04-2022
+99,Garmin Forerunner 945,599.99,60,electronics,28,1,14-01-2023
+100,DJI Mini 2 Drone,449.99,49.5,electronics,36,1,10-04-2022
+101,Anker PowerCore 26800 Portable Charger,79.99,16.8,electronics,54,1,23-07-2022
+102,Bose SoundLink Revolve+,299.99,105,electronics,94,1,30-05-2023
+103,Sony A7 III Mirrorless Camera,1999.99,800,electronics,28,1,01-02-2022
+104,Lenovo ThinkPad X1 Carbon,1399.99,238,electronics,93,1,28-08-2022
+105,Jabra Elite 75t Wireless Earbuds,149.99,63,electronics,72,1,09-04-2023
+106,Razer BlackWidow V3 Mechanical Keyboard,139.99,23.8,electronics,59,1,22-10-2023
+107,Logitech MX Master 3,99.99,13,electronics,58,1,09-08-2022
+108,Epson EcoTank ET-2760 Printer,229.99,75.9,electronics,29,1,20-08-2022
+109,Roku Streaming Stick 4K,49.99,9,electronics,29,1,03-05-2023
+110,Philips Hue White and Color Ambiance Bulbs,149.99,51,electronics,88,1,02-09-2022
+111,Acer Predator Helios 300,1399.99,168,electronics,34,1,26-07-2022
+112,TP-Link Archer AX73 Wi-Fi 6 Router,229.99,11.5,electronics,99,1,19-11-2023
+113,Netgear Nighthawk X6S Router,299.99,39,electronics,76,1,22-06-2022
+114,Microsoft Xbox Series X,499.99,25,electronics,88,1,11-06-2022
+115,Sony PlayStation 5,499.99,120,electronics,39,1,27-05-2023
+116,LG 27GN950-B UltraGear Monitor,799.99,80,electronics,41,1,01-05-2022
+117,Western Digital 4TB My Passport External HD,139.99,42,electronics,39,1,12-02-2023
+118,Corsair Vengeance LPX 16GB DDR4 RAM,79.99,16,electronics,20,1,25-03-2022
+119,Elgato Stream Deck XL,249.99,30,electronics,92,1,21-09-2023
+120,Logitech C920 HD Pro Webcam,79.99,28.8,electronics,88,1,29-03-2023
+121,Amazon Echo Studio,199.99,22,electronics,74,1,17-04-2022
+122,Sennheiser Momentum True Wireless 2,299.99,111,electronics,89,1,14-05-2023
+123,Huawei Watch GT 3,229.99,23,electronics,38,1,29-01-2022
+124,Beyerdynamic DT 990 Pro Headphones,179.99,68.4,electronics,62,1,24-01-2023
+125,Sony WH-1000XM5 Wireless Headphones,399.99,108,electronics,97,1,11-10-2023
+126,LG Gram 17 Laptop,1699.99,459,electronics,52,1,24-01-2022
+127,Acer Nitro 5 Gaming Laptop,1099.99,319,electronics,60,1,30-11-2022
+128,Garmin Venu 2,399.99,92,electronics,95,1,25-08-2023
+129,Bose SoundLink Mini II,179.99,27,electronics,98,1,28-05-2023
+130,Logitech G502 Hero Gaming Mouse,49.99,15.5,electronics,93,1,24-10-2023
+131,Microsoft Surface Laptop Studio,1999.99,120,electronics,78,1,27-05-2023
+132,ASUS ZenBook 13,1199.99,252,electronics,65,1,11-09-2023
+133,Jabra Elite Active 65t,169.99,54.4,electronics,23,1,15-05-2023
+134,GoPro HERO9 Black,399.99,84,electronics,52,1,03-01-2023
+135,Canon EOS M50 Mark II,699.99,266,electronics,69,1,11-03-2022
+136,Sony X90J 55-Inch TV,1299.99,468,electronics,79,1,06-01-2023
+137,Logitech StreamCam,169.99,20.4,electronics,98,1,10-01-2023
+138,Razer DeathAdder V2,69.99,24.5,electronics,72,1,15-11-2022
+139,Nintendo Switch Lite,199.99,30,electronics,61,1,05-04-2022
+140,HP ENVY 13 Laptop,1299.99,585,electronics,42,1,17-11-2022
+141,Fitbit Versa 3,229.99,89.7,electronics,27,1,12-01-2023
+142,Bose QuietComfort Earbuds,279.99,126,electronics,81,1,08-05-2023
+143,Logitech MX Keys,119.99,33.6,electronics,24,1,23-01-2023
+144,TP-Link Deco X20 Mesh Wi-Fi System,299.99,45,electronics,96,1,20-02-2023
+145,Western Digital My Book 8TB External HD,189.99,76,electronics,48,1,14-01-2022
+146,Acer Predator X34 Monitor,1099.99,264,electronics,69,1,07-06-2022
+147,ASUS TUF Gaming A15,1299.99,130,electronics,49,1,10-08-2023
+148,iRobot Roomba 694 Robot Vacuum,279.99,120.4,electronics,97,1,20-07-2022
+149,Sony WH-CH710N Wireless Headphones,229.99,62.1,electronics,45,1,21-11-2022
+150,NVIDIA GeForce RTX 3080 Graphics Card,699.99,196,electronics,21,1,23-12-2023
+151,Elgato Game Capture HD60 S,249.99,65,electronics,51,1,13-04-2023
+152,Logitech G Pro X Wireless Gaming Headset,129.99,19.5,electronics,63,1,28-04-2023
+153,Sennheiser HD 660S,399.99,140,electronics,48,1,09-03-2023
+154,Microsoft Surface Pen,99.99,16,electronics,59,1,10-06-2022
+155,Bose 700 Noise Cancelling Headphones,379.99,133,electronics,84,1,04-01-2022
+156,Fitbit Inspire 3,99.99,5,electronics,65,1,20-10-2023
+157,Sony A6400 Mirrorless Camera,899.99,54,electronics,97,1,06-04-2022
+158,Razer BlackWidow Elite,179.99,48.6,electronics,42,1,10-05-2023
+159,Amazon Echo Show 8,129.99,36.4,electronics,93,1,25-12-2022
+160,Corsair K95 RGB Platinum,199.99,10,electronics,94,1,13-04-2023
+161,Logitech G Pro Gaming Keyboard,129.99,44.2,electronics,92,1,30-01-2023
+162,LG UltraWide 34-Inch Monitor,799.99,136,electronics,84,1,28-08-2022
+163,Belkin BoostCharge 10W Wireless Charger,39.99,2.8,electronics,70,1,16-02-2023
+164,iPad Mini (6th Gen),499.99,30,electronics,73,1,28-02-2023
+165,Google Nest Hub Max,229.99,94.3,electronics,42,1,30-05-2023
+166,Panasonic Lumix GH5,1299.99,351,electronics,27,1,26-07-2022
+167,Anker Soundcore Flare 2,99.99,39,electronics,71,1,11-10-2023
+168,DJI Osmo Pocket 2,299.99,57,electronics,47,1,03-10-2022
+169,Sony PlayStation 5 DualSense Controller,69.99,10.5,electronics,52,1,22-08-2023
+170,Jabra Speak 710,299.99,93,electronics,44,1,24-06-2023
+171,Logitech G733 Wireless Gaming Headset,129.99,26,electronics,35,1,23-02-2022
+172,LG CineBeam HU80KA 4K Laser Projector,1799.99,612,electronics,96,1,14-08-2022
+173,Microsoft Surface Dock 2,259.99,18.2,electronics,85,1,02-10-2023
+174,TP-Link Kasa Smart Plug,24.99,3.5,electronics,63,1,09-06-2023
+175,Fitbit Charge 4,149.99,40.5,electronics,81,1,20-12-2022
+176,Sony Xperia 5 II,949.99,332.5,electronics,95,1,20-06-2022
+177,Logitech C922 Pro Stream Webcam,79.99,28.8,electronics,51,1,24-05-2023
+178,Roku Ultra 2022,99.99,39,electronics,64,1,12-01-2022
+179,Huawei MatePad Pro,799.99,312,electronics,37,1,19-10-2022
+180,Bose Noise Cancelling Headphones 700,379.99,152,electronics,73,1,04-03-2022
+181,DJI Mavic Air 2,799.99,344,electronics,50,1,21-12-2022
+182,ASUS ROG Flow X13,1499.99,315,electronics,92,1,19-09-2023
+183,Lenovo IdeaPad Flex 5,849.99,187,electronics,99,1,18-03-2022
+184,Logitech Brio 4K Webcam,199.99,28,electronics,25,1,26-02-2023
+185,iPad Air (4th Gen),599.99,162,electronics,83,1,07-05-2023
+186,GoPro HERO8 Black,299.99,57,electronics,21,1,26-10-2022
+187,Bose Soundbar 700,799.99,40,electronics,29,1,08-10-2022
+188,Garmin Edge 530 GPS Bike Computer,299.99,84,electronics,85,1,26-12-2022
+189,Sennheiser CX 400BT True Wireless,199.99,76,electronics,46,1,03-05-2023
+190,Sony WF-1000XM4 Wireless Earbuds,279.99,39.2,electronics,78,1,14-04-2022
+191,HP Omen 15 Gaming Laptop,1299.99,130,electronics,73,1,22-11-2023
+192,ASUS ROG Strix G15,1499.99,225,electronics,99,1,01-08-2022
+193,Canon EOS R6 Mirrorless Camera,2499.99,175,electronics,99,1,11-10-2022
+194,Microsoft Surface Book 3,1599.99,624,electronics,20,1,18-08-2022
+195,Fitbit Versa 4,229.99,41.4,electronics,38,1,01-06-2023
+196,Bose QuietComfort 45,329.99,16.5,electronics,62,1,11-11-2023
+197,Sony Alpha 7C Mirrorless Camera,1799.99,648,electronics,75,1,29-08-2023
+198,Logitech G Pro Wireless Gaming Mouse,129.99,58.5,electronics,76,1,18-07-2023
+199,Jabra Elite 85t Wireless Earbuds,229.99,11.5,electronics,28,1,18-12-2023
+200,Anker Soundcore Liberty Air 2 Pro,139.99,44.8,electronics,71,1,16-04-2022
+201,Nintendo Switch Pro Controller,69.99,11.9,electronics,81,1,07-04-2023
+202,Sony WH-XB910N Wireless Headphones,249.99,105,electronics,73,1,10-09-2022
+203,Razer Naga X MMO Gaming Mouse,79.99,24,electronics,34,1,02-01-2023
+204,Microsoft Xbox Series S,299.99,132,electronics,96,1,07-07-2023
+205,Logitech G923 Racing Wheel,399.99,152,electronics,25,1,25-06-2023
+206,DJI Mavic Mini 2,449.99,63,electronics,41,1,05-08-2022
+207,Sony ZV-1 Compact Camera,749.99,82.5,electronics,91,1,10-07-2022
+208,GoPro HERO11 Black,399.99,64,electronics,74,1,24-04-2022
+209,Bose SoundLink Flex,149.99,18,electronics,76,1,11-01-2023
+210,ASUS TUF Gaming VG27AQ Monitor,379.99,79.8,electronics,42,1,17-03-2022
+211,Western Digital My Passport 1TB External HD,69.99,21.7,electronics,66,1,27-09-2023
+212,HP Spectre x360 15,1399.99,280,electronics,65,1,27-02-2022
+213,Logitech MX Master 2S,99.99,43,electronics,92,1,22-02-2022
+214,Canon RF 24-70mm f/2.8L IS USM Lens,2299.99,736,electronics,93,1,17-07-2023
+215,Anker Nebula Capsule,299.99,30,electronics,56,1,03-06-2022
+216,Sony A7R IV Mirrorless Camera,3299.99,1188,electronics,87,1,08-02-2022
+217,Logitech G915 TKL Mechanical Keyboard,229.99,50.6,electronics,80,1,30-01-2022
+218,Jabra PanaCast 50 Conference Camera,799.99,128,electronics,79,1,01-04-2022
+219,HP Envy 14 Laptop,1299.99,208,electronics,81,1,04-08-2023
+220,Fitbit Luxe,149.99,7.5,electronics,50,1,12-03-2022
+221,Canon RF 50mm f/1.2L USM Lens,2299.99,598,electronics,25,1,08-11-2023
+222,Sony Xperia 10 III,449.99,54,electronics,23,1,19-10-2022
+223,Logitech G703 Lightspeed Wireless Mouse,99.99,11,electronics,50,1,17-04-2023
+224,LG UltraGear 38GN950 Monitor,1299.99,481,electronics,29,1,22-01-2022
+225,Microsoft Surface Pro X,999.99,80,electronics,83,1,28-05-2022
+226,Bose Home Speaker 500,399.99,160,electronics,45,1,08-01-2022
+227,Sony WH-CH520 Wireless Headphones,79.99,12,electronics,20,1,28-09-2022
+228,Razer Huntsman Elite Gaming Keyboard,199.99,24,electronics,82,1,20-08-2023
+229,DJI Pocket 2,299.99,66,electronics,29,1,14-06-2023
+230,Lenovo Yoga 9i,1399.99,210,electronics,20,1,27-03-2023
+231,Sony A7S III Mirrorless Camera,3499.99,1330,electronics,23,1,13-03-2023
+232,Microsoft Surface Headphones 2,249.99,75,electronics,48,1,15-06-2023
+233,Logitech Brio 4K Ultra HD Webcam,199.99,62,electronics,47,1,05-10-2023
+234,HP Pavilion 27-inch All-in-One,1299.99,364,electronics,58,1,05-04-2023
+235,Anker PowerCore 10000 Portable Charger,29.99,13.2,electronics,61,1,27-11-2023
+236,Canon EOS Rebel T8i Camera Kit,749.99,277.5,electronics,25,1,06-04-2022
+237,Sony A6600 Mirrorless Camera,1399.99,588,electronics,72,1,21-08-2022
+238,Logitech G Pro X Wireless Headset,129.99,15.6,electronics,35,1,12-10-2023
+239,Microsoft Surface Laptop Go,699.99,154,electronics,86,1,29-11-2022
+240,Sony WH-H910N Wireless Headphones,249.99,105,electronics,94,1,24-07-2023
+241,Razer Viper Ultimate Wireless Mouse,149.99,12,electronics,76,1,05-12-2022
+242,Canon RF 70-200mm f/2.8L IS USM Lens,2699.99,432,electronics,49,1,04-08-2023
+243,HP Elite Dragonfly Laptop,1999.99,740,electronics,61,1,05-03-2023
+244,Logitech MX Master 3S,99.99,5,electronics,79,1,05-04-2022
+245,Sony RX100 VII Compact Camera,1299.99,312,electronics,28,1,09-01-2022
+246,Microsoft Xbox Elite Series 2 Controller,179.99,61.2,electronics,22,1,01-03-2022
+247,Bose Sleepbuds II,249.99,97.5,electronics,88,1,17-06-2022
+248,Canon RF 85mm f/1.2L USM Lens,2299.99,207,electronics,45,1,09-11-2022
+249,Lenovo ThinkPad X1 Yoga,1399.99,602,electronics,49,1,09-06-2023
+250,Jabra Elite 65t Wireless Earbuds,149.99,36,electronics,42,1,25-03-2022
+251,Razer BlackWidow V3 Mini Keyboard,139.99,33.6,electronics,53,1,17-04-2023
+252,HP Spectre x360 13 Laptop,1299.99,65,electronics,98,1,04-12-2022
+253,Sony WH-1000XM4 Noise Cancelling Headphones,349.99,17.5,electronics,67,1,04-07-2023
+254,Canon EOS 90D Camera Kit,1199.99,396,electronics,48,1,02-08-2023
+255,Bose Soundbar 300,399.99,120,electronics,37,1,30-06-2022
+256,Microsoft Surface Pro 7,1099.99,187,electronics,22,1,18-08-2022
+257,Logitech MX Keys Mini,119.99,30,electronics,55,1,19-05-2022
+258,Sony XBR-65A8H OLED TV,2499.99,950,electronics,97,1,27-08-2022
+259,Razer DeathAdder V2 Pro,89.99,15.3,electronics,95,1,25-08-2023
+260,Canon RF 15-35mm f/2.8L IS USM Lens,2299.99,621,electronics,31,1,26-07-2022
+261,HP 27fw Monitor,249.99,65,electronics,52,1,11-10-2023
+262,Logitech G Pro X Mechanical Keyboard,129.99,28.6,electronics,30,1,24-04-2022
+263,Sony A7 III Camera Kit,2199.99,748,electronics,31,1,09-02-2023
+264,Lenovo IdeaPad Gaming 3,1099.99,110,electronics,99,1,01-09-2022
+265,Microsoft Surface Laptop 4,1299.99,65,electronics,76,1,22-03-2022
+266,Jabra Elite Active 75t,199.99,90,electronics,57,1,28-02-2022
+267,Google Pixel 6 Pro,899.99,360,electronics,24,1,22-12-2022
+268,Canon EOS 6D Mark II Camera Kit,1499.99,495,electronics,79,1,16-10-2022
+269,HP Pavilion Gaming Desktop,1099.99,198,electronics,31,1,01-08-2023
+270,Anker Soundcore Motion+,89.99,32.4,electronics,45,1,22-09-2022
+271,Canon RF 24-105mm f/4L IS USM Lens,1299.99,130,electronics,85,1,06-10-2023
+272,Razer Basilisk V3 Gaming Mouse,89.99,28.8,electronics,96,1,11-01-2022
+273,Microsoft Surface Go 3,629.99,56.7,electronics,67,1,09-06-2022
+274,Sony RX0 II Camera,699.99,266,electronics,73,1,25-12-2023
+275,Logitech G920 Racing Wheel,299.99,45,electronics,81,1,27-09-2022
+276,HP Chromebook x360 14,399.99,116,electronics,48,1,03-09-2022
+277,Razer Viper V2 Pro,149.99,39,electronics,55,1,10-10-2023
+278,Canon EOS Rebel T7 DSLR Kit,499.99,205,electronics,89,1,01-04-2022
+279,Logitech G203 Lightsync Gaming Mouse,39.99,3.6,electronics,64,1,11-05-2022
+280,Sony WH-1000XM3 Wireless Headphones,349.99,105,electronics,26,1,09-02-2022
+281,Canon EOS 5D Mark IV Camera Kit,2499.99,625,electronics,38,1,26-01-2022
+282,Logitech G502 Lightspeed Wireless Mouse,79.99,23.2,electronics,57,1,16-01-2023
+283,HP Envy 17 Laptop,1499.99,360,electronics,78,1,21-04-2022
+284,Razer BlackWidow V3 Gaming Keyboard,179.99,70.2,electronics,98,1,18-09-2022
+285,Sony WH-H910N Noise Cancelling Headphones,249.99,95,electronics,77,1,30-09-2023
+286,Microsoft Surface Laptop 3,1199.99,132,electronics,69,1,19-08-2023
+287,Jabra Elite 75t,169.99,28.9,electronics,62,1,23-07-2023
+288,Logitech C922 Pro Streaming Webcam,79.99,8,electronics,84,1,09-04-2023
+289,Canon EOS Rebel T7i Camera Kit,699.99,203,electronics,58,1,14-11-2022
+290,Microsoft Surface Book 2,1499.99,360,electronics,92,1,11-05-2022
+291,Razer Naga Pro Wireless Gaming Mouse,149.99,63,electronics,29,1,08-12-2022
+292,Sony A9 II Mirrorless Camera,4499.99,1845,electronics,31,1,19-01-2022
+293,Logitech G512 Mechanical Keyboard,119.99,15.6,electronics,32,1,25-09-2023
+294,HP Envy 32 All-in-One Desktop,1499.99,675,electronics,71,1,08-02-2022
+295,Lenovo Legion 5 Pro Gaming Laptop,1499.99,330,electronics,44,1,15-09-2022
+296,Canon EOS M50 Mark II Camera Kit,699.99,273,electronics,78,1,21-08-2022
+297,Microsoft Surface Pro 6,1099.99,55,electronics,42,1,20-06-2023
+298,Razer BlackWidow V3 Keyboard,179.99,63,electronics,73,1,20-09-2022
+299,Sony WH-XB900N Wireless Headphones,249.99,47.5,electronics,96,1,17-07-2023
+300,Microsoft Surface Headphones,249.99,107.5,electronics,94,1,03-03-2022
+301,Canon EOS 77D Camera Kit,899.99,279,electronics,90,1,06-07-2022
+302,Lenovo IdeaPad 3 15 Laptop,699.99,238,electronics,96,1,22-03-2023
+303,Razer Kraken Ultimate Gaming Headset,129.99,37.7,electronics,48,1,27-09-2022
+304,Sony A7C Mirrorless Camera,1799.99,270,electronics,93,1,13-02-2023
+305,HP Pavilion x360 14 Laptop,899.99,387,electronics,61,1,01-01-2023
+306,Canon EOS 6D Mark II Camera Kit,1699.99,629,electronics,70,1,18-01-2022
+307,Razer Huntsman Mini Keyboard,129.99,33.8,electronics,74,1,20-03-2022
+308,Logitech G910 Orion Spectrum Keyboard,179.99,10.8,electronics,91,1,15-07-2022
+309,Men's Classic T-Shirt,19.99,6.8,clothing,41,1,11-07-2023
+310,Women's Casual Dress,29.99,7.2,clothing,48,1,26-09-2023
+311,Unisex Denim Jacket,49.99,22.5,clothing,81,1,22-04-2022
+312,Men's Running Shoes,79.99,36,clothing,25,1,21-05-2023
+313,Women's Leather Handbag,99.99,28,clothing,84,1,10-05-2023
+314,Men's Sports Watch,89.99,25.2,clothing,87,1,19-05-2023
+315,Women's Wool Scarf,39.99,6.8,clothing,63,1,21-09-2022
+316,Unisex Sunglasses,14.99,1.8,clothing,95,1,14-06-2023
+317,Men's Dress Shirt,34.99,6.65,clothing,68,1,25-06-2022
+318,Women's Yoga Pants,24.99,3,clothing,79,1,04-07-2023
+319,Men's Casual Shorts,29.99,3,clothing,48,1,07-07-2023
+320,Women's Sun Hat,15.99,6.08,clothing,95,1,26-01-2022
+321,Unisex Backpack,59.99,9.6,clothing,62,1,21-11-2023
+322,Men's Winter Coat,129.99,29.9,clothing,71,1,01-12-2022
+323,Women's Evening Gown,199.99,48,clothing,24,1,28-11-2022
+324,Men's Cargo Pants,44.99,7.2,clothing,81,1,10-01-2022
+325,Women's Sandals,34.99,2.8,clothing,95,1,12-06-2022
+326,Unisex Beanie Hat,12.99,4.94,clothing,54,1,22-07-2023
+327,Men's Leather Belt,22.99,9.89,clothing,87,1,13-09-2022
+328,Women's Knit Sweater,49.99,21.5,clothing,47,1,27-07-2023
+329,Men's Polo Shirt,27.99,2.8,clothing,60,1,26-06-2023
+330,Women's High-Waisted Jeans,39.99,5.2,clothing,56,1,22-12-2023
+331,Unisex Fitness Tracker,69.99,15.4,clothing,81,1,29-05-2023
+332,Men's Blazer,89.99,4.5,clothing,77,1,05-02-2023
+333,Women's Floral Skirt,25.99,2.08,clothing,42,1,26-04-2022
+334,Men's Canvas Sneakers,34.99,15.4,clothing,24,1,10-10-2022
+335,Women's Trench Coat,79.99,28.8,clothing,95,1,04-06-2022
+336,Unisex Crossbody Bag,44.99,10.8,clothing,72,1,29-06-2023
+337,Men's Dress Shoes,89.99,39.6,clothing,48,1,06-08-2023
+338,Women's Silk Blouse,54.99,18.7,clothing,37,1,09-11-2023
+339,Men's Zip-Up Hoodie,39.99,14.8,clothing,28,1,22-07-2023
+340,Women's Athletic Shoes,59.99,19.8,clothing,83,1,30-03-2022
+341,Unisex Cardigan,39.99,14,clothing,86,1,28-03-2022
+342,Men's Suede Jacket,119.99,28.8,clothing,91,1,02-02-2022
+343,Women's Denim Skirt,29.99,11.1,clothing,69,1,05-09-2022
+344,Men's Casual Loafers,49.99,22,clothing,33,1,27-06-2023
+345,Women's Overalls,39.99,15.6,clothing,22,1,22-04-2023
+346,Unisex Wallet,22.99,9.66,clothing,57,1,14-11-2023
+347,Men's Graphic T-Shirt,24.99,3.5,clothing,83,1,26-12-2023
+348,Women's Peacoat,89.99,21.6,clothing,35,1,19-06-2023
+349,Men's Fleece Jacket,49.99,8.5,clothing,49,1,07-01-2023
+350,Women's Capris,29.99,3,clothing,55,1,03-08-2023
+351,Unisex Sports Cap,16.99,2.21,clothing,48,1,04-07-2023
+352,Men's Leather Gloves,34.99,5.25,clothing,80,1,26-09-2023
+353,Women's Booties,64.99,19.5,clothing,66,1,29-09-2022
+354,Men's Sweater Vest,39.99,4.4,clothing,67,1,19-03-2023
+355,Women's Denim Jacket,54.99,17.05,clothing,85,1,17-05-2023
+356,Unisex Utility Vest,49.99,12.5,clothing,62,1,03-04-2022
+357,Men's Performance Shorts,27.99,7,clothing,20,1,06-10-2022
+358,Women's Winter Scarf,19.99,2.4,clothing,24,1,10-09-2022
+359,Men's Casual Sneakers,44.99,3.15,clothing,77,1,26-11-2022
+360,Women's Embellished Dress,74.99,25.5,clothing,99,1,22-06-2023
+361,Unisex Messenger Bag,39.99,16.8,clothing,81,1,09-10-2023
+362,Men's Corduroy Pants,34.99,6.65,clothing,59,1,11-03-2022
+363,Women's Ankle Boots,59.99,7.2,clothing,52,1,11-04-2022
+364,Men's Track Jacket,54.99,16.5,clothing,65,1,06-03-2022
+365,Women's Ballet Flats,24.99,2,clothing,76,1,25-04-2023
+366,Unisex Beaded Bracelet,14.99,0.9,clothing,97,1,01-04-2023
+367,Men's Casual Button-Down,39.99,12.4,clothing,69,1,10-03-2022
+368,Women's Sleeveless Top,19.99,3,clothing,31,1,13-06-2022
+369,Men's Formal Trousers,59.99,11.4,clothing,34,1,07-11-2022
+370,Women's Long Sleeve Shirt,29.99,12.9,clothing,29,1,05-12-2022
+371,Unisex Knit Gloves,16.99,2.89,clothing,20,1,15-02-2023
+372,Men's Casual Vest,34.99,15.75,clothing,93,1,23-12-2023
+373,Women's Fit & Flare Dress,64.99,17.55,clothing,28,1,16-05-2023
+374,Men's Fitted Blazer,79.99,7.2,clothing,95,1,14-11-2022
+375,Women's Platform Sneakers,49.99,7.5,clothing,21,1,23-11-2022
+376,Unisex Classic Hat,19.99,4.4,clothing,90,1,27-07-2023
+377,Men's Lightweight Jacket,49.99,20,clothing,45,1,24-12-2022
+378,Women's Leggings,24.99,6.5,clothing,85,1,22-01-2023
+379,Men's Leather Backpack,119.99,39.6,clothing,21,1,18-05-2022
+380,Women's Quilted Vest,39.99,13.2,clothing,66,1,21-05-2022
+381,Unisex Tech Gloves,22.99,9.89,clothing,48,1,30-12-2023
+382,Men's Chino Shorts,29.99,7.5,clothing,25,1,05-03-2023
+383,Women's Printed Scarf,22.99,7.13,clothing,47,1,05-02-2023
+384,Men's Baseball Cap,14.99,4.65,clothing,39,1,01-09-2022
+385,Women's Trapeze Dress,59.99,21,clothing,91,1,23-07-2023
+386,Unisex Leather Gloves,27.99,3.08,clothing,73,1,29-11-2023
+387,Men's Dress Vest,44.99,13.95,clothing,41,1,12-03-2022
+388,Women's Wide-Leg Pants,34.99,10.15,clothing,39,1,19-08-2022
+389,Men's Casual Shirt,34.99,11.9,clothing,45,1,26-09-2022
+390,Women's A-Line Skirt,29.99,10.8,clothing,94,1,10-05-2022
+391,Unisex Casual Belt,19.99,4,clothing,62,1,15-02-2022
+392,Men's Softshell Jacket,69.99,10.5,clothing,78,1,03-04-2022
+393,Women's Suede Boots,79.99,20,clothing,86,1,20-02-2022
+394,Men's Fleece Pants,39.99,10,clothing,26,1,14-10-2023
+395,Women's Tunic Top,29.99,8.4,clothing,40,1,16-05-2022
+396,Unisex Leather Messenger Bag,64.99,19.5,clothing,49,1,27-06-2023
+397,Men's Sweatpants,29.99,6,clothing,61,1,23-12-2022
+398,Women's Wool Hat,22.99,5.29,clothing,68,1,01-03-2023
+399,Men's Utility Shorts,34.99,5.95,clothing,62,1,13-09-2023
+400,Women's Peplum Top,27.99,8.96,clothing,54,1,27-01-2022
+401,Unisex Graphic Tee,24.99,9.5,clothing,42,1,23-05-2022
+402,Men's Knit Beanie,12.99,2.86,clothing,86,1,05-04-2023
+403,Women's Wide Brim Hat,18.99,7.41,clothing,99,1,19-06-2022
+404,Men's Denim Jeans,39.99,15.6,clothing,24,1,01-05-2022
+405,Women's Cropped Jacket,49.99,12.5,clothing,59,1,20-08-2023
+406,Unisex Stylish Socks,12.99,1.82,clothing,67,1,07-12-2022
+407,Men's Gym Shorts,24.99,4,clothing,52,1,07-07-2023
+408,Women's Silk Robe,79.99,16,clothing,50,1,01-12-2023
+409,Men's Casual Polo,29.99,6,clothing,30,1,02-09-2022
+410,Women's Floral Romper,34.99,7,clothing,73,1,06-07-2022
+411,Men's Casual Henley,29.99,8.1,clothing,35,1,29-01-2023
+412,Women's Long Cardigan,49.99,18,clothing,20,1,30-07-2023
+413,Unisex Beaded Necklace,29.99,5.7,clothing,24,1,11-01-2023
+414,Men's Crewneck Sweatshirt,39.99,14.8,clothing,87,1,04-11-2023
+415,Women's Maxi Dress,59.99,16.2,clothing,81,1,04-12-2023
+416,Men's Lightweight Hoodie,44.99,13.5,clothing,64,1,26-06-2023
+417,Women's Leather Boots,89.99,23.4,clothing,58,1,24-02-2023
+418,Unisex Fanny Pack,19.99,6.4,clothing,70,1,06-08-2023
+419,Men's Stylish Sneakers,49.99,12.5,clothing,94,1,29-05-2022
+420,Women's Denim Overalls,54.99,6.6,clothing,38,1,25-08-2023
+421,Men's Formal Shoes,69.99,16.8,clothing,98,1,22-04-2022
+422,Women's Summer Dress,39.99,5.6,clothing,61,1,08-12-2022
+423,Unisex Sports Watch,59.99,8.4,clothing,96,1,05-11-2023
+424,Men's Chukka Boots,59.99,4.8,clothing,78,1,08-09-2023
+425,Women's Embroidered Jacket,69.99,23.1,clothing,40,1,21-04-2022
+426,Men's Work Boots,79.99,5.6,clothing,88,1,17-10-2022
+427,Women's Cozy Sweater,49.99,13.5,clothing,31,1,16-01-2023
+428,Unisex Messenger Bag,44.99,10.35,clothing,33,1,04-10-2022
+429,Men's Casual Slacks,39.99,12,clothing,81,1,02-11-2022
+430,Women's Faux Fur Coat,89.99,8.1,clothing,45,1,22-01-2022
+431,Men's Dress Boots,99.99,22,clothing,46,1,09-02-2023
+432,Women's Casual Sneakers,39.99,4.8,clothing,74,1,26-07-2022
+433,Unisex Wide Brim Hat,24.99,8.5,clothing,74,1,14-08-2022
+434,Men's Stretch Jeans,34.99,7,clothing,34,1,01-08-2022
+435,Women's Wool Blend Dress,69.99,28.7,clothing,96,1,24-10-2023
+436,Unisex Knit Scarf,19.99,7.2,clothing,35,1,03-04-2022
+437,Men's Utility Jacket,54.99,7.7,clothing,24,1,27-04-2023
+438,Women's Polka Dot Dress,34.99,7,clothing,57,1,24-12-2022
+439,Men's Jogging Pants,29.99,9,clothing,78,1,11-08-2022
+440,Women's Casual Flats,29.99,3,clothing,67,1,24-07-2023
+441,Stainless Steel Cookware Set,149.99,52.5,home & kitchen,89,1,16-03-2023
+442,4-Slice Toaster,59.99,20.4,home & kitchen,38,1,26-07-2023
+443,Air Fryer,89.99,24.3,home & kitchen,57,1,12-04-2023
+444,Coffee Maker,69.99,21.7,home & kitchen,44,1,29-08-2022
+445,Electric Kettle,29.99,5.4,home & kitchen,36,1,16-06-2022
+446,Blender,49.99,3.5,home & kitchen,67,1,01-07-2022
+447,Microwave Oven,119.99,8.4,home & kitchen,99,1,13-03-2023
+448,Dish Rack,24.99,9.75,home & kitchen,47,1,22-02-2023
+449,Nonstick Frying Pan,39.99,11.2,home & kitchen,27,1,20-09-2022
+450,Food Processor,99.99,37,home & kitchen,76,1,09-09-2023
+451,Slow Cooker,79.99,10.4,home & kitchen,37,1,14-11-2023
+452,Stand Mixer,199.99,78,home & kitchen,62,1,02-07-2022
+453,Toaster Oven,89.99,21.6,home & kitchen,26,1,16-10-2023
+454,Cookware Set,159.99,49.6,home & kitchen,61,1,04-09-2023
+455,Electric Griddle,79.99,16,home & kitchen,76,1,12-04-2022
+456,Portable Induction Cooktop,89.99,34.2,home & kitchen,95,1,03-05-2023
+457,Espresso Machine,149.99,22.5,home & kitchen,44,1,12-01-2022
+458,Water Filter Pitcher,34.99,5.95,home & kitchen,68,1,10-01-2022
+459,Set of Mixing Bowls,29.99,10.2,home & kitchen,70,1,18-04-2022
+460,Kitchen Scale,19.99,5.4,home & kitchen,51,1,18-09-2022
+461,Spice Rack,24.99,8.75,home & kitchen,52,1,06-12-2023
+462,Cutting Board Set,34.99,7.7,home & kitchen,79,1,06-08-2023
+463,Baking Sheet Set,29.99,13.2,home & kitchen,54,1,11-12-2023
+464,Salt and Pepper Grinder Set,22.99,5.75,home & kitchen,33,1,28-06-2023
+465,Silicone Baking Mats,19.99,4.6,home & kitchen,20,1,03-05-2022
+466,Can Opener,15.99,6.72,home & kitchen,34,1,26-09-2023
+467,Measuring Cups and Spoons Set,18.99,7.98,home & kitchen,51,1,01-03-2023
+468,Dish Towels Set,22.99,6.44,home & kitchen,55,1,22-10-2023
+469,Kitchen Utensil Set,29.99,10.2,home & kitchen,98,1,02-07-2022
+470,Cast Iron Skillet,39.99,14,home & kitchen,35,1,05-12-2023
+471,Mixing Bowls with Lids,29.99,12.9,home & kitchen,91,1,01-02-2022
+472,Food Storage Containers,34.99,15.4,home & kitchen,96,1,10-07-2022
+473,Coffee Grinder,39.99,6.4,home & kitchen,66,1,06-04-2022
+474,Tea Infuser,12.99,2.34,home & kitchen,82,1,17-03-2022
+475,Ice Cream Maker,129.99,6.5,home & kitchen,60,1,18-05-2023
+476,Reusable Food Storage Bags,22.99,3.22,home & kitchen,30,1,18-09-2023
+477,Electric Wine Opener,29.99,12.6,home & kitchen,68,1,06-03-2022
+478,Pizza Stone,29.99,2.1,home & kitchen,41,1,08-12-2022
+479,Griddle Pan,34.99,6.3,home & kitchen,28,1,20-08-2023
+480,Panini Press,49.99,16.5,home & kitchen,53,1,17-09-2022
+481,Knife Set,79.99,8.8,home & kitchen,68,1,08-12-2022
+482,Adjustable Rolling Pin,19.99,8,home & kitchen,96,1,25-11-2023
+483,Waffle Maker,39.99,2,home & kitchen,91,1,23-09-2023
+484,Popcorn Maker,29.99,5.1,home & kitchen,99,1,26-08-2023
+485,Tea Kettle,24.99,9.25,home & kitchen,52,1,22-10-2022
+486,Silicone Spatula Set,18.99,6.27,home & kitchen,78,1,07-07-2023
+487,Meat Thermometer,14.99,1.05,home & kitchen,60,1,20-04-2022
+488,Bread Maker,99.99,34,home & kitchen,25,1,24-10-2023
+489,Electric Hot Pot,59.99,21,home & kitchen,61,1,26-07-2022
+490,Kitchen Timer,12.99,5.72,home & kitchen,51,1,01-06-2023
+491,Chafing Dish Set,89.99,19.8,home & kitchen,69,1,13-10-2023
+492,Kitchen Sink Organizer,24.99,7.5,home & kitchen,85,1,23-09-2023
+493,Trash Can with Lid,29.99,13.2,home & kitchen,82,1,14-09-2023
+494,Countertop Compost Bin,22.99,8.28,home & kitchen,21,1,18-08-2022
+495,Magnetic Knife Strip,19.99,5.2,home & kitchen,57,1,07-01-2023
+496,Food Processor Attachments,29.99,7.5,home & kitchen,90,1,12-07-2023
+497,Herb Scissors,14.99,2.55,home & kitchen,77,1,28-10-2022
+498,Nonstick Bakeware Set,39.99,13.6,home & kitchen,87,1,05-12-2023
+499,Oil Dispenser,16.99,4.25,home & kitchen,58,1,27-07-2022
+500,Grater Set,18.99,3.42,home & kitchen,69,1,26-01-2022
+501,Utensil Holder,12.99,2.6,home & kitchen,40,1,16-10-2023
+502,Wooden Salad Bowl,29.99,6.6,home & kitchen,87,1,29-03-2023
+503,Oven Mitts Set,19.99,4.8,home & kitchen,46,1,13-12-2022
+504,Pot Holders,14.99,4.05,home & kitchen,58,1,18-03-2023
+505,Soup Maker,79.99,28.8,home & kitchen,24,1,04-08-2023
+506,Cheese Board Set,34.99,5.95,home & kitchen,86,1,24-04-2023
+507,Vacuum Sealer,69.99,14,home & kitchen,76,1,07-04-2022
+508,Bread Box,39.99,15.6,home & kitchen,30,1,18-05-2022
+509,Kitchen Drawer Organizers,24.99,9.5,home & kitchen,98,1,03-11-2022
+510,Collapsible Dish Rack,22.99,1.61,home & kitchen,22,1,23-08-2022
+511,Rolling Pin,15.99,1.28,home & kitchen,54,1,27-05-2022
+512,Canister Set,29.99,12,home & kitchen,86,1,13-02-2023
+513,Wine Glasses Set,34.99,5.6,home & kitchen,25,1,20-11-2023
+514,Serving Tray,19.99,1.8,home & kitchen,34,1,07-01-2022
+515,Sifter,12.99,5.33,home & kitchen,89,1,03-06-2023
+516,Pop-Up Toaster,39.99,6.8,home & kitchen,72,1,20-07-2023
+517,Adjustable Cooling Rack,22.99,4.6,home & kitchen,25,1,24-02-2022
+518,Electric Egg Cooker,24.99,11.25,home & kitchen,76,1,26-03-2022
+519,Cooktop Burner,59.99,27,home & kitchen,82,1,06-08-2022
+520,Induction Cookware Set,129.99,29.9,home & kitchen,46,1,15-10-2023
+521,Wall-Mounted Bottle Opener,14.99,1.35,home & kitchen,53,1,11-08-2023
+522,Microwave Popcorn Popper,12.99,5.07,home & kitchen,61,1,15-07-2022
+523,Vegetable Peeler,9.99,0.7,home & kitchen,26,1,13-11-2023
+524,Kitchen Gadget Set,34.99,15.4,home & kitchen,36,1,17-05-2023
+525,Tea Towels Set,22.99,8.51,home & kitchen,62,1,18-02-2023
+526,Pot and Pan Protectors,16.99,5.1,home & kitchen,68,1,14-12-2023
+527,Food Chopper,22.99,5.06,home & kitchen,37,1,24-02-2022
+528,Dishwashing Gloves,12.99,5.2,home & kitchen,54,1,15-03-2023
+529,Set of Measuring Spoons,9.99,1,home & kitchen,84,1,02-10-2022
+530,Food Storage Jars,29.99,4.2,home & kitchen,78,1,23-04-2022
+531,Dish Brush,9.99,1.3,home & kitchen,59,1,02-11-2022
+532,Collapsible Storage Bins,22.99,8.05,home & kitchen,95,1,11-01-2023
+533,Grilling Tools Set,39.99,10.4,home & kitchen,79,1,17-12-2022
+534,Pancake Maker,34.99,7,home & kitchen,91,1,06-06-2023
+535,Ice Cube Trays,9.99,2.8,home & kitchen,86,1,14-09-2022
+536,Rolling Pin with Thickness Rings,22.99,8.51,home & kitchen,95,1,01-12-2023
+537,Spice Grinder,19.99,3.6,home & kitchen,96,1,25-01-2022
+538,Tea Canister Set,14.99,2.1,home & kitchen,78,1,18-05-2022
+539,Drawer Cutlery Organizer,18.99,2.85,home & kitchen,48,1,15-05-2022
+540,Salad Spinner,22.99,1.84,home & kitchen,58,1,16-08-2023
+541,Knife Sharpener,16.99,2.55,home & kitchen,57,1,14-08-2023
+542,Potato Masher,12.99,3.64,home & kitchen,91,1,02-03-2023
+543,Casserole Dish Set,34.99,3.85,home & kitchen,74,1,22-04-2022
+544,Pan Protector,12.99,4.55,home & kitchen,74,1,18-01-2022
+545,Adjustable Measuring Cup,18.99,5.7,home & kitchen,72,1,03-01-2023
+546,Silicone Ice Cube Molds,14.99,1.65,home & kitchen,86,1,02-02-2023
+547,Dog Leash,15.99,5.6,Pet Supplies,59,1,09-03-2023
+548,Cat Scratching Post,29.99,11.7,Pet Supplies,83,1,28-10-2022
+549,Bird Cage,49.99,15,Pet Supplies,52,1,21-08-2023
+550,Pet Carrier,39.99,13.6,Pet Supplies,78,1,30-06-2023
+551,Cat Bed,24.99,7.25,Pet Supplies,31,1,29-04-2023
+552,Dog Crate,89.99,36.9,Pet Supplies,63,1,16-03-2022
+553,Pet Food Bowl,14.99,3,Pet Supplies,67,1,24-08-2023
+554,Dog Toys Set,19.99,5.2,Pet Supplies,95,1,30-05-2022
+555,Automatic Pet Feeder,69.99,8.4,Pet Supplies,92,1,11-11-2023
+556,Fish Tank,79.99,17.6,Pet Supplies,77,1,24-10-2022
+557,Teddy Bear,12.99,5.59,Toys & Games,87,1,13-10-2023
+558,Lego Building Blocks,29.99,12,Toys & Games,67,1,11-04-2022
+559,Remote Control Car,49.99,16.5,Toys & Games,65,1,06-05-2022
+560,Dollhouse,79.99,29.6,Toys & Games,56,1,05-10-2022
+561,Action Figures,24.99,2.75,Toys & Games,48,1,21-09-2022
+562,Board Game,34.99,3.15,Toys & Games,95,1,18-11-2022
+563,Puzzle,19.99,6.4,Toys & Games,25,1,01-04-2023
+564,Play-Doh Set,14.99,1.95,Toys & Games,93,1,02-07-2022
+565,Stuffed Animal,22.99,4.37,Toys & Games,96,1,10-06-2023
+566,Building Blocks,39.99,17.6,Toys & Games,68,1,10-04-2023
+567,Basketball,29.99,12,Sports & Outdoors,57,1,30-09-2023
+568,Soccer Ball,19.99,6.6,Sports & Outdoors,55,1,04-06-2022
+569,Tennis Racket,49.99,14.5,Sports & Outdoors,36,1,05-07-2022
+570,Yoga Mat,34.99,5.6,Sports & Outdoors,21,1,16-10-2023
+571,Dumbbell Set,79.99,27.2,Sports & Outdoors,58,1,11-12-2022
+572,Golf Clubs,299.99,78,Sports & Outdoors,67,1,01-03-2023
+573,Hiking Backpack,89.99,35.1,Sports & Outdoors,50,1,17-11-2023
+574,Camping Tent,119.99,40.8,Sports & Outdoors,57,1,09-07-2022
+575,Fishing Rod,54.99,23.65,Sports & Outdoors,77,1,12-04-2023
+576,Ski Poles,89.99,23.4,Sports & Outdoors,50,1,27-04-2022
+577,Running Shoes,69.99,12.6,Sports & Outdoors,96,1,14-07-2022
+578,Cat Litter Box,34.99,3.5,Pet Supplies,24,1,17-02-2023
+579,Dog Bed,49.99,20,Pet Supplies,45,1,18-05-2023
+580,Pet Shampoo,14.99,2.7,Pet Supplies,38,1,18-06-2022
+581,Pet Brush,19.99,3,Pet Supplies,39,1,24-04-2023
+582,Bird Toy,9.99,0.6,Pet Supplies,20,1,07-02-2023
+583,Dog Treats,12.99,2.08,Pet Supplies,37,1,26-10-2022
+584,Pet Collar,16.99,2.21,Pet Supplies,56,1,23-10-2023
+585,Cat Tree,79.99,26.4,Pet Supplies,46,1,08-11-2023
+586,Dog Food,39.99,3.6,Pet Supplies,68,1,18-01-2023
+587,Aquarium Filter,29.99,3.9,Pet Supplies,96,1,08-11-2022
+588,Board Game,24.99,4.25,Toys & Games,92,1,23-11-2023
+589,Nerf Blaster,39.99,5.2,Toys & Games,91,1,11-04-2023
+590,Trampoline,149.99,63,Toys & Games,30,1,26-03-2023
+591,Kites,19.99,6.6,Toys & Games,93,1,17-10-2022
+592,Educational Tablet,79.99,24,Toys & Games,85,1,25-12-2022
+593,Magic Set,29.99,3,Toys & Games,27,1,07-06-2023
+594,RC Boat,64.99,24.05,Toys & Games,95,1,03-09-2022
+595,Bike Helmet,34.99,3.5,Sports & Outdoors,25,1,02-10-2023
+596,Skateboard,59.99,23.4,Sports & Outdoors,85,1,13-09-2023
+597,Tennis Balls,14.99,2.25,Sports & Outdoors,84,1,17-06-2022
+598,Baseball Glove,29.99,8.7,Sports & Outdoors,29,1,06-06-2022
+599,Exercise Ball,22.99,6.67,Sports & Outdoors,58,1,08-03-2022
+600,Folding Chair,39.99,2.8,Sports & Outdoors,51,1,08-01-2022
+601,Portable Grill,99.99,21,Sports & Outdoors,31,1,22-04-2022
+602,Swim Goggles,12.99,4.55,Sports & Outdoors,46,1,27-05-2023
+603,Resistance Bands,19.99,1.6,Sports & Outdoors,59,1,18-12-2023
+604,Pet Cooling Mat,34.99,12.95,Pet Supplies,37,1,06-08-2022
+605,Dog Harness,29.99,11.1,Pet Supplies,21,1,21-06-2022
+606,Cat Carrier,39.99,10.8,Pet Supplies,46,1,17-03-2023
+607,Pet Water Fountain,49.99,3.5,Pet Supplies,1,1,01-08-2022
+608,Dog Nail Clippers,14.99,5.4,Pet Supplies,20,1,17-02-2023
+609,Pet Blanket,19.99,3.8,Pet Supplies,7,1,30-10-2022
+610,Pet Travel Bed,54.99,12.1,Pet Supplies,18,1,20-07-2022
+611,Cat Food,27.99,5.04,Pet Supplies,4,1,25-07-2023
+612,Dog Training Collar,79.99,21.6,Pet Supplies,8,1,04-05-2022
+613,Hamster Cage,39.99,13.2,Pet Supplies,23,1,16-10-2022
+614,Remote Control Helicopter,54.99,23.65,Toys & Games,5,1,30-07-2023
+615,Magic Markers Set,18.99,6.46,Toys & Games,2,1,21-02-2023
+616,Wooden Train Set,34.99,8.05,Toys & Games,14,1,24-05-2022
+617,Giant Jenga,49.99,13.5,Toys & Games,6,1,24-08-2023
+618,Play Kitchen Set,79.99,16.8,Toys & Games,8,1,21-03-2022
+619,Puzzle Mat,22.99,8.97,Toys & Games,14,1,18-04-2023
+620,Train Set,59.99,3,Toys & Games,11,1,16-07-2023
+621,Learning Tablet,89.99,28.8,Toys & Games,11,1,25-02-2023
+622,Hot Wheels Cars,14.99,5.4,Toys & Games,7,1,12-12-2023
+623,Golf Balls,19.99,6.4,Sports & Outdoors,25,1,26-10-2023
+624,Sports Water Bottle,14.99,2.55,Sports & Outdoors,3,1,30-09-2022
+625,Snowshoes,99.99,30,Sports & Outdoors,18,1,18-10-2023
+626,Baseball Bat,39.99,14.4,Sports & Outdoors,10,1,14-03-2022
+627,Hiking Poles,49.99,14,Sports & Outdoors,4,1,15-01-2022
+628,Running Watch,129.99,10.4,Sports & Outdoors,23,1,13-01-2022
+629,Camping Lantern,29.99,12.9,Sports & Outdoors,24,1,25-02-2022
+630,CrossFit Gear,89.99,38.7,Sports & Outdoors,12,1,08-12-2023
+631,Pet Raincoat,24.99,3.75,Pet Supplies,3,1,05-11-2023
+632,Dog Pool,49.99,10,Pet Supplies,9,1,08-08-2023
+633,Pet Wipes,12.99,2.47,Pet Supplies,22,1,02-04-2023
+634,Dog Bone,9.99,1.6,Pet Supplies,7,1,01-10-2022
+635,Cat Food Dispenser,34.99,9.45,Pet Supplies,16,1,10-11-2022
+636,Pet Gate,59.99,19.8,Pet Supplies,2,1,17-05-2022
+637,Dog First Aid Kit,22.99,8.74,Pet Supplies,22,1,29-07-2023
+638,Pet GPS Tracker,99.99,10,Pet Supplies,1,1,10-10-2023
+639,Dog Agility Equipment,89.99,36.9,Pet Supplies,14,1,27-06-2023
+640,Pet Odor Eliminator,14.99,5.85,Pet Supplies,11,1,28-10-2023
+641,Dog Ramp,79.99,18.4,Pet Supplies,15,1,04-03-2022
+642,Inflatable Pool,99.99,41,Toys & Games,7,1,16-11-2022
+643,Sand Box,29.99,7.2,Toys & Games,25,1,12-01-2022
+644,Glow Sticks,12.99,1.56,Toys & Games,17,1,25-01-2023
+645,Kids Camera,49.99,5.5,Toys & Games,15,1,02-08-2022
+646,Miniature Golf Set,39.99,5.6,Toys & Games,12,1,12-12-2022
+647,Outdoor Playhouse,119.99,25.2,Toys & Games,2,1,03-05-2022
+648,Child's Scooter,29.99,1.5,Toys & Games,23,1,21-06-2022
+649,Electronic Drum Set,129.99,52,Toys & Games,6,1,05-03-2022
+650,Water Gun,19.99,7,Toys & Games,21,1,04-09-2022
+651,Frisbee,9.99,4.3,Toys & Games,9,1,10-01-2023
+652,Soccer Net,34.99,12.25,Sports & Outdoors,21,1,14-11-2022
+653,Tennis Set,59.99,16.8,Sports & Outdoors,1,1,08-07-2022
+654,Basketball Hoop,119.99,28.8,Sports & Outdoors,15,1,13-04-2023
+655,Exercise Resistance Bands,22.99,9.43,Sports & Outdoors,19,1,19-05-2022
+656,Baseball Set,34.99,9.1,Sports & Outdoors,22,1,05-05-2022
+657,Yoga Blocks,18.99,2.09,Sports & Outdoors,11,1,26-10-2023
+658,Bicycle Pump,14.99,3.6,Sports & Outdoors,4,1,26-10-2023
+659,Sports Massage Roller,19.99,3.2,Sports & Outdoors,1,1,04-08-2023
+660,Fitness Tracker,79.99,27.2,Sports & Outdoors,16,1,04-04-2023
+661,Swim Fins,29.99,6.3,Sports & Outdoors,11,1,10-11-2022
+662,Dog Toy Chew Ring,15.99,3.52,Pet Supplies,19,1,16-11-2023
+663,Catnip Toys,12.99,1.3,Pet Supplies,3,1,22-11-2022
+664,Pet Stroller,129.99,22.1,Pet Supplies,15,1,04-05-2023
+665,Bird Feeder,19.99,1,Pet Supplies,25,1,23-04-2022
+666,Pet Toothbrush,9.99,1.6,Pet Supplies,7,1,02-04-2023
+667,Dog Travel Bowl,14.99,0.75,Pet Supplies,5,1,04-11-2022
+668,Cat Carrier Backpack,49.99,19,Pet Supplies,24,1,27-07-2022
+669,Pet Safety Seat,59.99,15.6,Pet Supplies,21,1,26-08-2022
+670,Dog Cooling Vest,34.99,5.6,Pet Supplies,3,1,05-12-2022
+671,Pet Litter Mat,22.99,1.38,Pet Supplies,8,1,10-05-2023
+672,Toy Robot,39.99,2.8,Toys & Games,13,1,14-10-2022
+673,LEGO Star Wars Set,89.99,7.2,Toys & Games,22,1,25-09-2022
+674,Kids’ Tent,49.99,17.5,Toys & Games,16,1,20-01-2022
+675,Magnetic Building Blocks,34.99,11.2,Toys & Games,18,1,15-01-2023
+676,Ride-On Toy,99.99,17,Toys & Games,16,1,22-07-2023
+677,Child’s Tool Set,29.99,12.9,Toys & Games,17,1,15-10-2022
+678,Remote-Controlled Truck,54.99,20.9,Toys & Games,25,1,19-04-2022
+679,Activity Center,79.99,4,Toys & Games,11,1,03-04-2022
+680,Play Tent,24.99,11.25,Toys & Games,24,1,29-01-2022
+681,Paddle Ball,9.99,4.4,Toys & Games,5,1,15-05-2023
+682,Sports Goggles,18.99,8.36,Sports & Outdoors,25,1,30-07-2023
+683,Hiking Boots,89.99,31.5,Sports & Outdoors,10,1,01-03-2022
+684,Golf Bag,129.99,53.3,Sports & Outdoors,24,1,07-02-2022
+685,Camping Chair,39.99,5.2,Sports & Outdoors,21,1,23-03-2022
+686,Tennis Shorts,24.99,2,Sports & Outdoors,12,1,26-07-2022
+687,Soccer Shin Guards,14.99,5.1,Sports & Outdoors,21,1,08-05-2022
+688,Sports Socks,12.99,5.33,Sports & Outdoors,15,1,30-07-2023
+689,Exercise Resistance Bands,19.99,1.2,Sports & Outdoors,15,1,12-11-2023
+690,Beach Ball,9.99,3.6,Sports & Outdoors,8,1,07-09-2023
+691,Kids’ Baseball Mitt,29.99,9,Sports & Outdoors,9,1,08-06-2022
+692,Archery Set,129.99,32.5,Sports & Outdoors,1,1,05-07-2022
+693,Pet Door,99.99,38,Pet Supplies,10,1,01-10-2022
+694,Cat Food Mat,12.99,1.43,Pet Supplies,19,1,15-01-2023
+695,Dog Bandana,9.99,0.5,Pet Supplies,12,1,18-09-2022
+696,Bird Treats,14.99,4.35,Pet Supplies,25,1,18-07-2023
+697,Pet Sling Carrier,29.99,2.7,Pet Supplies,23,1,25-02-2023
+698,Pet Food Storage Container,22.99,8.28,Pet Supplies,23,1,20-01-2023
+699,Cat Window Perch,39.99,9.6,Pet Supplies,21,1,27-04-2023
+700,Dog Boots,19.99,8.4,Pet Supplies,21,1,27-05-2022
+701,Pet Car Seat Cover,34.99,10.85,Pet Supplies,16,1,25-02-2023
+702,Pet Travel Bowl,24.99,3.5,Pet Supplies,19,1,04-04-2022
+703,Cat Play Mat,14.99,4.65,Pet Supplies,24,1,23-12-2022
+704,Action Figures Set,29.99,3.9,Toys & Games,13,1,20-03-2023
+705,Children’s Puzzle,18.99,3.23,Toys & Games,1,1,23-02-2023
+706,Remote-Controlled Boat,64.99,6.5,Toys & Games,6,1,05-03-2023
+707,Kids’ Board Games,22.99,2.07,Toys & Games,25,1,21-02-2022
+708,Stuffed Animal Set,39.99,4,Toys & Games,2,1,07-01-2023
+709,Bouncing Ball,19.99,6.6,Toys & Games,16,1,29-11-2022
+710,Ride-On Car,149.99,49.5,Toys & Games,7,1,12-03-2022
+711,Inflatable Slide,119.99,40.8,Toys & Games,7,1,12-08-2022
+712,Kid’s Swing Set,79.99,21.6,Toys & Games,7,1,11-01-2022
+713,Skateboard Deck,39.99,16.4,Sports & Outdoors,25,1,24-01-2022
+714,Tennis Racket Set,49.99,19,Sports & Outdoors,14,1,20-07-2023
+715,Outdoor Basketball Net,29.99,9.9,Sports & Outdoors,13,1,29-09-2022
+716,Golf Driving Range Net,99.99,24,Sports & Outdoors,18,1,18-10-2022
+717,Soccer Goal,79.99,30.4,Sports & Outdoors,13,1,09-10-2023
+718,Baseball Helmet,29.99,6.3,Sports & Outdoors,24,1,06-07-2023
+719,Paddleboard,299.99,87,Sports & Outdoors,15,1,08-01-2023
+720,Portable Basketball Hoop,89.99,32.4,Sports & Outdoors,11,1,02-01-2023
+721,Fitness Mat,22.99,3.22,Sports & Outdoors,15,1,11-04-2023
+722,Trail Running Shoes,69.99,10.5,Sports & Outdoors,18,1,27-08-2022
+723,Rock Climbing Harness,99.99,21,Sports & Outdoors,15,1,19-12-2023
+724,Pet Training Mat,19.99,7.4,Pet Supplies,8,1,26-11-2022
+725,Cat Playhouse,49.99,16.5,Pet Supplies,8,1,05-01-2022
+726,Dog Bed with Canopy,79.99,34.4,Pet Supplies,18,1,24-07-2022
+727,Pet Odor Neutralizer,14.99,6.3,Pet Supplies,5,1,06-05-2023
+728,Cat Puzzle Feeder,24.99,9.25,Pet Supplies,20,1,01-12-2022
+729,Pet Car Window Shade,19.99,7.6,Pet Supplies,23,1,10-04-2022
+730,Dog Life Jacket,29.99,6.3,Pet Supplies,21,1,07-09-2022
+731,Pet Thermometer,22.99,3.45,Pet Supplies,4,1,20-08-2023
+732,Dog Harness with Leash,29.99,13.5,Pet Supplies,17,1,23-12-2023
+733,Cat Water Fountain,39.99,10,Pet Supplies,13,1,17-11-2023
+734,Kid’s Beach Tent,34.99,8.05,Toys & Games,1,1,26-09-2022
+735,Remote-Controlled Helicopter,59.99,12,Toys & Games,2,1,27-06-2023
+736,Kids’ Bounce House,129.99,24.7,Toys & Games,16,1,01-02-2023
+737,Mini Pool Table,89.99,32.4,Toys & Games,15,1,08-04-2022
+738,Art Supplies Set,22.99,1.84,Toys & Games,10,1,10-02-2022
+739,Indoor Climbing Set,99.99,34,Toys & Games,13,1,14-06-2022
+740,Electronic Building Blocks,49.99,20.5,Toys & Games,14,1,19-04-2022
+741,Kid’s Yoga Mat,18.99,8.17,Toys & Games,9,1,09-07-2022
+742,Pet Exercise Wheel,39.99,16.4,Pet Supplies,16,1,17-05-2022
+743,Dog Toothpaste,9.99,4.2,Pet Supplies,19,1,21-03-2022
+744,Pet First Aid Kit,29.99,6.9,Pet Supplies,4,1,16-03-2022
+745,Cat Wand Toy,14.99,5.4,Pet Supplies,5,1,28-10-2023
+746,Pet Seat Belt,22.99,5.75,Pet Supplies,11,1,16-07-2022
+747,Cat Tunnels,19.99,2,Pet Supplies,22,1,06-05-2023
+748,Dog Play Pen,69.99,3.5,Pet Supplies,19,1,07-05-2022
+749,Pet Travel Water Bottle,12.99,2.34,Pet Supplies,24,1,07-07-2023
+750,Dog Bowls with Stand,29.99,7.8,Pet Supplies,5,1,26-01-2023
+751,Pet Cooling Pad,34.99,2.45,Pet Supplies,24,1,12-02-2022
+752,Kids’ Scooter,39.99,15.6,Toys & Games,10,1,25-04-2022
+753,Magnetic Puzzle,24.99,9.75,Toys & Games,10,1,14-07-2022
+754,Inflatable Obstacle Course,149.99,43.5,Toys & Games,12,1,08-04-2023
+755,Child’s Paint Set,19.99,5.4,Toys & Games,10,1,22-05-2023
+756,Remote-Controlled Car Set,54.99,4.95,Toys & Games,7,1,08-12-2022
+757,Mini Basketball Hoop,29.99,1.5,Sports & Outdoors,5,1,16-11-2023
+758,Lightweight Camping Tent,79.99,35.2,Sports & Outdoors,13,1,30-08-2023
+759,Resistance Training Equipment,39.99,6.8,Sports & Outdoors,14,1,21-09-2022
+760,Paddleboard Accessories,22.99,6.44,Sports & Outdoors,13,1,06-06-2023
+761,Sports Hand Grips,16.99,5.44,Sports & Outdoors,22,1,21-08-2023
+762,Baseball Batting Tee,59.99,7.8,Sports & Outdoors,5,1,14-11-2022
+763,Foldable Bike Rack,49.99,18.5,Sports & Outdoors,18,1,13-12-2022
+764,Exercise Roller,24.99,5.5,Sports & Outdoors,21,1,06-01-2022
+765,Golf Cart,249.99,35,Sports & Outdoors,23,1,01-01-2022
